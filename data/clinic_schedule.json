@@ -1,0 +1,6974 @@
+[
+ {
+  "title": "Occupational Therapy (every two weeks)",
+  "resource": "Toronto Room 101",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO",
+  "dtStart": "2025-10-24T17:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T17:15:00",
+   "2025-12-26T17:15:00",
+   "2026-01-01T17:15:00",
+   "2026-02-16T17:15:00",
+   "2026-04-03T17:15:00",
+   "2026-05-18T17:15:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (weekly)",
+  "resource": "Toronto Room 101",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO;UNTIL=20270331T235959Z",
+  "dtStart": "2026-01-14T10:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T10:00:00",
+   "2025-12-26T10:00:00",
+   "2026-01-01T10:00:00",
+   "2026-02-16T10:00:00",
+   "2026-04-03T10:00:00",
+   "2026-05-18T10:00:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (weekday mornings)",
+  "resource": "Toronto Room 101",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-10-14T13:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T13:30:00",
+   "2025-12-26T13:30:00",
+   "2026-01-01T13:30:00",
+   "2026-02-16T13:30:00",
+   "2026-04-03T13:30:00",
+   "2026-05-18T13:30:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "Toronto Room 101",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=1SA",
+  "dtStart": "2025-09-20T07:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Dermatology (every two weeks)",
+  "resource": "Toronto Room 101",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH",
+  "dtStart": "2025-09-28T11:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T11:30:00",
+   "2025-12-26T11:30:00",
+   "2026-01-01T11:30:00",
+   "2026-02-16T11:30:00",
+   "2026-04-03T11:30:00",
+   "2026-05-18T11:30:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (twice weekly)",
+  "resource": "Toronto Room 101",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,FR",
+  "dtStart": "2025-09-09T11:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T11:30:00",
+   "2025-12-26T11:30:00",
+   "2026-01-01T11:30:00",
+   "2026-02-16T11:30:00",
+   "2026-04-03T11:30:00",
+   "2026-05-18T11:30:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (twice weekly)",
+  "resource": "Toronto Room 101",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,WE",
+  "dtStart": "2025-10-18T11:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T11:00:00",
+   "2025-12-26T11:00:00",
+   "2026-01-01T11:00:00",
+   "2026-02-16T11:00:00",
+   "2026-04-03T11:00:00",
+   "2026-05-18T11:00:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (last weekday review)",
+  "resource": "Toronto Room 101",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-11-08T13:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": []
+ },
+ {
+  "title": "Audiology (monthly)",
+  "resource": "Toronto Room 101",
+  "rrule": "FREQ=MONTHLY;BYDAY=2FR",
+  "dtStart": "2026-01-23T13:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "Toronto Room 101",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=1SA",
+  "dtStart": "2026-01-12T06:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 240,
+  "exDates": []
+ },
+ {
+  "title": "Audiology (last weekday review)",
+  "resource": "Toronto Room 101",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2026-01-18T08:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Cardiology (every two weeks)",
+  "resource": "Toronto Room 101",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO;UNTIL=20270330T235959Z",
+  "dtStart": "2026-01-10T16:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T16:30:00",
+   "2025-12-26T16:30:00",
+   "2026-01-01T16:30:00",
+   "2026-02-16T16:30:00",
+   "2026-04-03T16:30:00",
+   "2026-05-18T16:30:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (monthly)",
+  "resource": "Toronto Room 101",
+  "rrule": "FREQ=MONTHLY;BYDAY=2TU;COUNT=35",
+  "dtStart": "2025-12-19T11:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Sleep Study Review (monthly)",
+  "resource": "Toronto Room 101",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=15",
+  "dtStart": "2026-01-11T08:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Audiology (every two weeks)",
+  "resource": "Toronto Room 101",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO",
+  "dtStart": "2025-11-30T09:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T09:00:00",
+   "2025-12-26T09:00:00",
+   "2026-01-01T09:00:00",
+   "2026-02-16T09:00:00",
+   "2026-04-03T09:00:00",
+   "2026-05-18T09:00:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (twice weekly)",
+  "resource": "Toronto Room 101",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TH",
+  "dtStart": "2025-12-12T17:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T17:45:00",
+   "2025-12-26T17:45:00",
+   "2026-01-01T17:45:00",
+   "2026-02-16T17:45:00",
+   "2026-04-03T17:45:00",
+   "2026-05-18T17:45:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "Toronto Room 102",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=2SA",
+  "dtStart": "2025-12-17T06:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 240,
+  "exDates": []
+ },
+ {
+  "title": "Orthopaedics (weekly)",
+  "resource": "Toronto Room 102",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-12-15T15:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T15:00:00",
+   "2025-12-26T15:00:00",
+   "2026-01-01T15:00:00",
+   "2026-02-16T15:00:00",
+   "2026-04-03T15:00:00",
+   "2026-05-18T15:00:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (twice weekly)",
+  "resource": "Toronto Room 102",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,FR",
+  "dtStart": "2025-09-03T09:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T09:00:00",
+   "2025-12-26T09:00:00",
+   "2026-01-01T09:00:00",
+   "2026-02-16T09:00:00",
+   "2026-04-03T09:00:00",
+   "2026-05-18T09:00:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (weekly)",
+  "resource": "Toronto Room 102",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-09-13T07:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T07:30:00",
+   "2025-12-26T07:30:00",
+   "2026-01-01T07:30:00",
+   "2026-02-16T07:30:00",
+   "2026-04-03T07:30:00",
+   "2026-05-18T07:30:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (weekly)",
+  "resource": "Toronto Room 102",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO",
+  "dtStart": "2025-09-09T17:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T17:45:00",
+   "2025-12-26T17:45:00",
+   "2026-01-01T17:45:00",
+   "2026-02-16T17:45:00",
+   "2026-04-03T17:45:00",
+   "2026-05-18T17:45:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (monthly)",
+  "resource": "Toronto Room 102",
+  "rrule": "FREQ=MONTHLY;BYDAY=2TH",
+  "dtStart": "2025-10-07T08:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Cardiology (monthly)",
+  "resource": "Toronto Room 102",
+  "rrule": "FREQ=MONTHLY;BYDAY=2TH;UNTIL=20260403T235959Z",
+  "dtStart": "2025-10-21T09:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Speech Therapy (twice weekly)",
+  "resource": "Toronto Room 102",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU",
+  "dtStart": "2025-11-23T16:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T16:30:00",
+   "2025-12-26T16:30:00",
+   "2026-01-01T16:30:00",
+   "2026-02-16T16:30:00",
+   "2026-04-03T16:30:00",
+   "2026-05-18T16:30:00"
+  ]
+ },
+ {
+  "title": "Wound Care (twice weekly)",
+  "resource": "Toronto Room 102",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE;UNTIL=20260416T235959Z",
+  "dtStart": "2026-01-10T13:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T13:30:00",
+   "2025-12-26T13:30:00",
+   "2026-01-01T13:30:00",
+   "2026-02-16T13:30:00",
+   "2026-04-03T13:30:00",
+   "2026-05-18T13:30:00"
+  ]
+ },
+ {
+  "title": "Dermatology (twice weekly)",
+  "resource": "Toronto Room 102",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH,FR",
+  "dtStart": "2025-10-03T16:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T16:30:00",
+   "2025-12-26T16:30:00",
+   "2026-01-01T16:30:00",
+   "2026-02-16T16:30:00",
+   "2026-04-03T16:30:00",
+   "2026-05-18T16:30:00"
+  ]
+ },
+ {
+  "title": "Nutrition Counselling (monthly)",
+  "resource": "Toronto Room 102",
+  "rrule": "FREQ=MONTHLY;BYDAY=2TH",
+  "dtStart": "2026-01-12T17:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Dermatology (weekly)",
+  "resource": "Toronto Room 102",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-09-30T10:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T10:00:00",
+   "2025-12-26T10:00:00",
+   "2026-01-01T10:00:00",
+   "2026-02-16T10:00:00",
+   "2026-04-03T10:00:00",
+   "2026-05-18T10:00:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (every two weeks)",
+  "resource": "Toronto Room 102",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TU",
+  "dtStart": "2025-12-12T14:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T14:45:00",
+   "2025-12-26T14:45:00",
+   "2026-01-01T14:45:00",
+   "2026-02-16T14:45:00",
+   "2026-04-03T14:45:00",
+   "2026-05-18T14:45:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (monthly)",
+  "resource": "Toronto Room 102",
+  "rrule": "FREQ=MONTHLY;BYDAY=-1TH",
+  "dtStart": "2026-01-28T08:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Audiology (weekly)",
+  "resource": "Toronto Room 102",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2026-01-23T12:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T12:45:00",
+   "2025-12-26T12:45:00",
+   "2026-01-01T12:45:00",
+   "2026-02-16T12:45:00",
+   "2026-04-03T12:45:00",
+   "2026-05-18T12:45:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (monthly)",
+  "resource": "Toronto Room 102",
+  "rrule": "FREQ=MONTHLY;BYDAY=1MO",
+  "dtStart": "2025-09-12T12:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Speech Therapy (weekly)",
+  "resource": "Toronto Room 103",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU",
+  "dtStart": "2025-11-01T10:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T10:15:00",
+   "2025-12-26T10:15:00",
+   "2026-01-01T10:15:00",
+   "2026-02-16T10:15:00",
+   "2026-04-03T10:15:00",
+   "2026-05-18T10:15:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (weekly)",
+  "resource": "Toronto Room 103",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-10-30T11:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T11:00:00",
+   "2025-12-26T11:00:00",
+   "2026-01-01T11:00:00",
+   "2026-02-16T11:00:00",
+   "2026-04-03T11:00:00",
+   "2026-05-18T11:00:00"
+  ]
+ },
+ {
+  "title": "Dermatology (last weekday review)",
+  "resource": "Toronto Room 103",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-10-29T12:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": []
+ },
+ {
+  "title": "Orthopaedics (weekly)",
+  "resource": "Toronto Room 103",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-10-14T15:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T15:00:00",
+   "2025-12-26T15:00:00",
+   "2026-01-01T15:00:00",
+   "2026-02-16T15:00:00",
+   "2026-04-03T15:00:00",
+   "2026-05-18T15:00:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (twice weekly)",
+  "resource": "Toronto Room 103",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,TH,FR",
+  "dtStart": "2025-10-19T14:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T14:45:00",
+   "2025-12-26T14:45:00",
+   "2026-01-01T14:45:00",
+   "2026-02-16T14:45:00",
+   "2026-04-03T14:45:00",
+   "2026-05-18T14:45:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (monthly)",
+  "resource": "Toronto Room 103",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=10",
+  "dtStart": "2025-10-25T17:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Prenatal Care (weekly)",
+  "resource": "Toronto Room 103",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO",
+  "dtStart": "2025-10-17T09:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T09:15:00",
+   "2025-12-26T09:15:00",
+   "2026-01-01T09:15:00",
+   "2026-02-16T09:15:00",
+   "2026-04-03T09:15:00",
+   "2026-05-18T09:15:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (twice weekly)",
+  "resource": "Toronto Room 103",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU;UNTIL=20260428T235959Z",
+  "dtStart": "2026-01-07T09:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T09:30:00",
+   "2025-12-26T09:30:00",
+   "2026-01-01T09:30:00",
+   "2026-02-16T09:30:00",
+   "2026-04-03T09:30:00",
+   "2026-05-18T09:30:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (every two weeks)",
+  "resource": "Toronto Room 103",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=WE;COUNT=33",
+  "dtStart": "2025-11-12T11:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T11:15:00",
+   "2025-12-26T11:15:00",
+   "2026-01-01T11:15:00",
+   "2026-02-16T11:15:00",
+   "2026-04-03T11:15:00",
+   "2026-05-18T11:15:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (twice weekly)",
+  "resource": "Toronto Room 103",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,TH",
+  "dtStart": "2025-11-09T12:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T12:15:00",
+   "2025-12-26T12:15:00",
+   "2026-01-01T12:15:00",
+   "2026-02-16T12:15:00",
+   "2026-04-03T12:15:00",
+   "2026-05-18T12:15:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (monthly)",
+  "resource": "Toronto Room 103",
+  "rrule": "FREQ=MONTHLY;BYDAY=3TH;COUNT=17",
+  "dtStart": "2025-12-20T11:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Sleep Study Review (weekly)",
+  "resource": "Toronto Room 103",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO;COUNT=23",
+  "dtStart": "2025-11-18T09:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T09:00:00",
+   "2025-12-26T09:00:00",
+   "2026-01-01T09:00:00",
+   "2026-02-16T09:00:00",
+   "2026-04-03T09:00:00",
+   "2026-05-18T09:00:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (every two weeks)",
+  "resource": "Toronto Room 103",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=WE",
+  "dtStart": "2025-11-03T08:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T08:15:00",
+   "2025-12-26T08:15:00",
+   "2026-01-01T08:15:00",
+   "2026-02-16T08:15:00",
+   "2026-04-03T08:15:00",
+   "2026-05-18T08:15:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (weekday mornings)",
+  "resource": "Toronto Room 104",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20270515T235959Z",
+  "dtStart": "2026-01-18T13:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T13:45:00",
+   "2025-12-26T13:45:00",
+   "2026-01-01T13:45:00",
+   "2026-02-16T13:45:00",
+   "2026-04-03T13:45:00",
+   "2026-05-18T13:45:00"
+  ]
+ },
+ {
+  "title": "Wound Care (every two weeks)",
+  "resource": "Toronto Room 104",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TU;COUNT=17",
+  "dtStart": "2025-12-15T16:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T16:45:00",
+   "2025-12-26T16:45:00",
+   "2026-01-01T16:45:00",
+   "2026-02-16T16:45:00",
+   "2026-04-03T16:45:00",
+   "2026-05-18T16:45:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (twice weekly)",
+  "resource": "Toronto Room 104",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE",
+  "dtStart": "2025-11-15T08:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T08:00:00",
+   "2025-12-26T08:00:00",
+   "2026-01-01T08:00:00",
+   "2026-02-16T08:00:00",
+   "2026-04-03T08:00:00",
+   "2026-05-18T08:00:00"
+  ]
+ },
+ {
+  "title": "Physiotherapy (weekday mornings)",
+  "resource": "Toronto Room 104",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-12-13T16:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T16:45:00",
+   "2025-12-26T16:45:00",
+   "2026-01-01T16:45:00",
+   "2026-02-16T16:45:00",
+   "2026-04-03T16:45:00",
+   "2026-05-18T16:45:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (weekly)",
+  "resource": "Toronto Room 104",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO;UNTIL=20260811T235959Z",
+  "dtStart": "2025-09-25T07:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T07:30:00",
+   "2025-12-26T07:30:00",
+   "2026-01-01T07:30:00",
+   "2026-02-16T07:30:00",
+   "2026-04-03T07:30:00",
+   "2026-05-18T07:30:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (weekly)",
+  "resource": "Toronto Room 104",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-12-06T09:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T09:15:00",
+   "2025-12-26T09:15:00",
+   "2026-01-01T09:15:00",
+   "2026-02-16T09:15:00",
+   "2026-04-03T09:15:00",
+   "2026-05-18T09:15:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (monthly)",
+  "resource": "Toronto Room 104",
+  "rrule": "FREQ=MONTHLY;BYDAY=3FR;UNTIL=20260427T235959Z",
+  "dtStart": "2025-10-20T14:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Dermatology (weekly)",
+  "resource": "Toronto Room 104",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-09-09T15:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T15:45:00",
+   "2025-12-26T15:45:00",
+   "2026-01-01T15:45:00",
+   "2026-02-16T15:45:00",
+   "2026-04-03T15:45:00",
+   "2026-05-18T15:45:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (monthly)",
+  "resource": "Toronto Room 104",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=10",
+  "dtStart": "2025-10-11T17:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Mental Health Group (weekly)",
+  "resource": "Toronto Room 104",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-09-29T17:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T17:45:00",
+   "2025-12-26T17:45:00",
+   "2026-01-01T17:45:00",
+   "2026-02-16T17:45:00",
+   "2026-04-03T17:45:00",
+   "2026-05-18T17:45:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (twice weekly)",
+  "resource": "Toronto Room 104",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,TH",
+  "dtStart": "2025-12-10T10:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T10:15:00",
+   "2025-12-26T10:15:00",
+   "2026-01-01T10:15:00",
+   "2026-02-16T10:15:00",
+   "2026-04-03T10:15:00",
+   "2026-05-18T10:15:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "Toronto Room 104",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=1SA",
+  "dtStart": "2025-12-15T07:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Orthopaedics (monthly)",
+  "resource": "Toronto Room 104",
+  "rrule": "FREQ=MONTHLY;BYDAY=3WE",
+  "dtStart": "2026-01-05T10:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Paediatrics (weekday mornings)",
+  "resource": "Toronto Room 104",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20270428T235959Z",
+  "dtStart": "2025-12-02T12:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T12:30:00",
+   "2025-12-26T12:30:00",
+   "2026-01-01T12:30:00",
+   "2026-02-16T12:30:00",
+   "2026-04-03T12:30:00",
+   "2026-05-18T12:30:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (weekly)",
+  "resource": "Toronto Room 104",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU",
+  "dtStart": "2025-11-25T08:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T08:30:00",
+   "2025-12-26T08:30:00",
+   "2026-01-01T08:30:00",
+   "2026-02-16T08:30:00",
+   "2026-04-03T08:30:00",
+   "2026-05-18T08:30:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (monthly)",
+  "resource": "Toronto Room 105",
+  "rrule": "FREQ=MONTHLY;BYDAY=-1MO;UNTIL=20261231T235959Z",
+  "dtStart": "2025-11-30T14:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Prenatal Care (twice weekly)",
+  "resource": "Toronto Room 105",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE,TH,FR",
+  "dtStart": "2025-10-22T12:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T12:45:00",
+   "2025-12-26T12:45:00",
+   "2026-01-01T12:45:00",
+   "2026-02-16T12:45:00",
+   "2026-04-03T12:45:00",
+   "2026-05-18T12:45:00"
+  ]
+ },
+ {
+  "title": "Physiotherapy (last weekday review)",
+  "resource": "Toronto Room 105",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2026-01-11T07:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Dermatology (weekly)",
+  "resource": "Toronto Room 105",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-10-20T07:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T07:00:00",
+   "2025-12-26T07:00:00",
+   "2026-01-01T07:00:00",
+   "2026-02-16T07:00:00",
+   "2026-04-03T07:00:00",
+   "2026-05-18T07:00:00"
+  ]
+ },
+ {
+  "title": "Cardiology (weekly)",
+  "resource": "Toronto Room 105",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-11-05T12:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T12:30:00",
+   "2025-12-26T12:30:00",
+   "2026-01-01T12:30:00",
+   "2026-02-16T12:30:00",
+   "2026-04-03T12:30:00",
+   "2026-05-18T12:30:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (monthly)",
+  "resource": "Toronto Room 105",
+  "rrule": "FREQ=MONTHLY;BYDAY=1FR",
+  "dtStart": "2025-10-28T13:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Cardiology (weekly)",
+  "resource": "Toronto Room 105",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-11-11T16:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T16:00:00",
+   "2025-12-26T16:00:00",
+   "2026-01-01T16:00:00",
+   "2026-02-16T16:00:00",
+   "2026-04-03T16:00:00",
+   "2026-05-18T16:00:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (weekly)",
+  "resource": "Toronto Room 105",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-12-08T07:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T07:30:00",
+   "2025-12-26T07:30:00",
+   "2026-01-01T07:30:00",
+   "2026-02-16T07:30:00",
+   "2026-04-03T07:30:00",
+   "2026-05-18T07:30:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (twice weekly)",
+  "resource": "Toronto Room 105",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE,TH,FR",
+  "dtStart": "2025-11-13T11:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T11:45:00",
+   "2025-12-26T11:45:00",
+   "2026-01-01T11:45:00",
+   "2026-02-16T11:45:00",
+   "2026-04-03T11:45:00",
+   "2026-05-18T11:45:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (weekly)",
+  "resource": "Toronto Room 105",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO;UNTIL=20260405T235959Z",
+  "dtStart": "2025-12-13T09:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T09:00:00",
+   "2025-12-26T09:00:00",
+   "2026-01-01T09:00:00",
+   "2026-02-16T09:00:00",
+   "2026-04-03T09:00:00",
+   "2026-05-18T09:00:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (weekly)",
+  "resource": "Toronto Room 105",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-12-06T07:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T07:45:00",
+   "2025-12-26T07:45:00",
+   "2026-01-01T07:45:00",
+   "2026-02-16T07:45:00",
+   "2026-04-03T07:45:00",
+   "2026-05-18T07:45:00"
+  ]
+ },
+ {
+  "title": "Wound Care (weekly)",
+  "resource": "Toronto Room 105",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-10-26T15:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T15:15:00",
+   "2025-12-26T15:15:00",
+   "2026-01-01T15:15:00",
+   "2026-02-16T15:15:00",
+   "2026-04-03T15:15:00",
+   "2026-05-18T15:15:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (weekly)",
+  "resource": "Toronto Room 105",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-12-22T13:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T13:00:00",
+   "2025-12-26T13:00:00",
+   "2026-01-01T13:00:00",
+   "2026-02-16T13:00:00",
+   "2026-04-03T13:00:00",
+   "2026-05-18T13:00:00"
+  ]
+ },
+ {
+  "title": "Physiotherapy (weekly)",
+  "resource": "Toronto Room 105",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2026-01-10T09:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T09:15:00",
+   "2025-12-26T09:15:00",
+   "2026-01-01T09:15:00",
+   "2026-02-16T09:15:00",
+   "2026-04-03T09:15:00",
+   "2026-05-18T09:15:00"
+  ]
+ },
+ {
+  "title": "Cardiology (twice weekly)",
+  "resource": "Toronto Room 105",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,WE,TH;UNTIL=20260722T235959Z",
+  "dtStart": "2025-11-28T14:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T14:00:00",
+   "2025-12-26T14:00:00",
+   "2026-01-01T14:00:00",
+   "2026-02-16T14:00:00",
+   "2026-04-03T14:00:00",
+   "2026-05-18T14:00:00"
+  ]
+ },
+ {
+  "title": "Audiology (last weekday review)",
+  "resource": "Toronto Room 105",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-12-22T11:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Dermatology (weekday mornings)",
+  "resource": "Toronto Room 106",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-09-29T08:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T08:30:00",
+   "2025-12-26T08:30:00",
+   "2026-01-01T08:30:00",
+   "2026-02-16T08:30:00",
+   "2026-04-03T08:30:00",
+   "2026-05-18T08:30:00"
+  ]
+ },
+ {
+  "title": "Dermatology (twice weekly)",
+  "resource": "Toronto Room 106",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE,TH,FR",
+  "dtStart": "2025-11-01T12:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T12:15:00",
+   "2025-12-26T12:15:00",
+   "2026-01-01T12:15:00",
+   "2026-02-16T12:15:00",
+   "2026-04-03T12:15:00",
+   "2026-05-18T12:15:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (every two weeks)",
+  "resource": "Toronto Room 106",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH",
+  "dtStart": "2025-11-22T16:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T16:00:00",
+   "2025-12-26T16:00:00",
+   "2026-01-01T16:00:00",
+   "2026-02-16T16:00:00",
+   "2026-04-03T16:00:00",
+   "2026-05-18T16:00:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (twice weekly)",
+  "resource": "Toronto Room 106",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,FR;COUNT=30",
+  "dtStart": "2025-12-13T16:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T16:15:00",
+   "2025-12-26T16:15:00",
+   "2026-01-01T16:15:00",
+   "2026-02-16T16:15:00",
+   "2026-04-03T16:15:00",
+   "2026-05-18T16:15:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (last weekday review)",
+  "resource": "Toronto Room 106",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1;UNTIL=20260823T235959Z",
+  "dtStart": "2026-01-19T15:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": []
+ },
+ {
+  "title": "Occupational Therapy (monthly)",
+  "resource": "Toronto Room 106",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=15",
+  "dtStart": "2025-09-15T11:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Paediatrics (last weekday review)",
+  "resource": "Toronto Room 106",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-12-09T14:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": []
+ },
+ {
+  "title": "Dermatology (weekly)",
+  "resource": "Toronto Room 106",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-09-06T13:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T13:30:00",
+   "2025-12-26T13:30:00",
+   "2026-01-01T13:30:00",
+   "2026-02-16T13:30:00",
+   "2026-04-03T13:30:00",
+   "2026-05-18T13:30:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (weekly)",
+  "resource": "Toronto Room 106",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU",
+  "dtStart": "2025-10-25T13:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T13:45:00",
+   "2025-12-26T13:45:00",
+   "2026-01-01T13:45:00",
+   "2026-02-16T13:45:00",
+   "2026-04-03T13:45:00",
+   "2026-05-18T13:45:00"
+  ]
+ },
+ {
+  "title": "Audiology (twice weekly)",
+  "resource": "Toronto Room 106",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH,FR",
+  "dtStart": "2025-12-01T10:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T10:15:00",
+   "2025-12-26T10:15:00",
+   "2026-01-01T10:15:00",
+   "2026-02-16T10:15:00",
+   "2026-04-03T10:15:00",
+   "2026-05-18T10:15:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (monthly)",
+  "resource": "Toronto Room 106",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=15;COUNT=27",
+  "dtStart": "2025-11-23T11:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Dermatology (every two weeks)",
+  "resource": "Toronto Room 106",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH",
+  "dtStart": "2025-10-07T11:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T11:00:00",
+   "2025-12-26T11:00:00",
+   "2026-01-01T11:00:00",
+   "2026-02-16T11:00:00",
+   "2026-04-03T11:00:00",
+   "2026-05-18T11:00:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (weekly)",
+  "resource": "Toronto Room 106",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-09-26T13:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T13:00:00",
+   "2025-12-26T13:00:00",
+   "2026-01-01T13:00:00",
+   "2026-02-16T13:00:00",
+   "2026-04-03T13:00:00",
+   "2026-05-18T13:00:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (twice weekly)",
+  "resource": "Toronto Room 106",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,TH",
+  "dtStart": "2025-09-06T16:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T16:15:00",
+   "2025-12-26T16:15:00",
+   "2026-01-01T16:15:00",
+   "2026-02-16T16:15:00",
+   "2026-04-03T16:15:00",
+   "2026-05-18T16:15:00"
+  ]
+ },
+ {
+  "title": "Physiotherapy (weekly)",
+  "resource": "Toronto Room 107",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO",
+  "dtStart": "2025-11-25T14:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T14:00:00",
+   "2025-12-26T14:00:00",
+   "2026-01-01T14:00:00",
+   "2026-02-16T14:00:00",
+   "2026-04-03T14:00:00",
+   "2026-05-18T14:00:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (monthly)",
+  "resource": "Toronto Room 107",
+  "rrule": "FREQ=MONTHLY;BYDAY=-1TU;UNTIL=20260413T235959Z",
+  "dtStart": "2025-10-08T10:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Nutrition Counselling (monthly)",
+  "resource": "Toronto Room 107",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=-1",
+  "dtStart": "2026-01-01T13:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Nutrition Counselling (monthly)",
+  "resource": "Toronto Room 107",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=15",
+  "dtStart": "2025-12-06T15:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Nutrition Counselling (twice weekly)",
+  "resource": "Toronto Room 107",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE;COUNT=29",
+  "dtStart": "2025-10-29T14:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T14:00:00",
+   "2025-12-26T14:00:00",
+   "2026-01-01T14:00:00",
+   "2026-02-16T14:00:00",
+   "2026-04-03T14:00:00",
+   "2026-05-18T14:00:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (every two weeks)",
+  "resource": "Toronto Room 107",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=WE;UNTIL=20260630T235959Z",
+  "dtStart": "2025-11-23T07:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T07:15:00",
+   "2025-12-26T07:15:00",
+   "2026-01-01T07:15:00",
+   "2026-02-16T07:15:00",
+   "2026-04-03T07:15:00",
+   "2026-05-18T07:15:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (twice weekly)",
+  "resource": "Toronto Room 107",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,WE;COUNT=7",
+  "dtStart": "2025-12-27T17:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T17:30:00",
+   "2025-12-26T17:30:00",
+   "2026-01-01T17:30:00",
+   "2026-02-16T17:30:00",
+   "2026-04-03T17:30:00",
+   "2026-05-18T17:30:00"
+  ]
+ },
+ {
+  "title": "Dermatology (monthly)",
+  "resource": "Toronto Room 107",
+  "rrule": "FREQ=MONTHLY;BYDAY=-1TU",
+  "dtStart": "2025-11-16T07:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Mental Health Group (weekly)",
+  "resource": "Toronto Room 107",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH;COUNT=26",
+  "dtStart": "2025-11-15T09:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T09:15:00",
+   "2025-12-26T09:15:00",
+   "2026-01-01T09:15:00",
+   "2026-02-16T09:15:00",
+   "2026-04-03T09:15:00",
+   "2026-05-18T09:15:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (monthly)",
+  "resource": "Toronto Room 107",
+  "rrule": "FREQ=MONTHLY;BYDAY=3MO;COUNT=6",
+  "dtStart": "2025-11-07T08:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Diabetes Clinic (weekday mornings)",
+  "resource": "Toronto Room 107",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-11-11T14:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T14:45:00",
+   "2025-12-26T14:45:00",
+   "2026-01-01T14:45:00",
+   "2026-02-16T14:45:00",
+   "2026-04-03T14:45:00",
+   "2026-05-18T14:45:00"
+  ]
+ },
+ {
+  "title": "Dermatology (weekly)",
+  "resource": "Toronto Room 107",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE;UNTIL=20261007T235959Z",
+  "dtStart": "2026-01-19T14:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T14:00:00",
+   "2025-12-26T14:00:00",
+   "2026-01-01T14:00:00",
+   "2026-02-16T14:00:00",
+   "2026-04-03T14:00:00",
+   "2026-05-18T14:00:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (monthly)",
+  "resource": "Toronto Room 107",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=10;UNTIL=20270118T235959Z",
+  "dtStart": "2025-12-06T17:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Prenatal Care (weekday mornings)",
+  "resource": "Toronto Room 108",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;COUNT=27",
+  "dtStart": "2026-01-12T14:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T14:45:00",
+   "2025-12-26T14:45:00",
+   "2026-01-01T14:45:00",
+   "2026-02-16T14:45:00",
+   "2026-04-03T14:45:00",
+   "2026-05-18T14:45:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (monthly)",
+  "resource": "Toronto Room 108",
+  "rrule": "FREQ=MONTHLY;BYDAY=-1MO",
+  "dtStart": "2025-09-11T15:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Orthopaedics (monthly)",
+  "resource": "Toronto Room 108",
+  "rrule": "FREQ=MONTHLY;BYDAY=2TU",
+  "dtStart": "2025-09-24T10:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Allergy Shots (weekly)",
+  "resource": "Toronto Room 108",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-09-06T14:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T14:15:00",
+   "2025-12-26T14:15:00",
+   "2026-01-01T14:15:00",
+   "2026-02-16T14:15:00",
+   "2026-04-03T14:15:00",
+   "2026-05-18T14:15:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (last weekday review)",
+  "resource": "Toronto Room 108",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1;UNTIL=20270608T235959Z",
+  "dtStart": "2026-01-23T10:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Wound Care (twice weekly)",
+  "resource": "Toronto Room 108",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,TH;UNTIL=20270217T235959Z",
+  "dtStart": "2025-09-14T10:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T10:45:00",
+   "2025-12-26T10:45:00",
+   "2026-01-01T10:45:00",
+   "2026-02-16T10:45:00",
+   "2026-04-03T10:45:00",
+   "2026-05-18T10:45:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (twice weekly)",
+  "resource": "Toronto Room 108",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH,FR",
+  "dtStart": "2025-11-23T17:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T17:15:00",
+   "2025-12-26T17:15:00",
+   "2026-01-01T17:15:00",
+   "2026-02-16T17:15:00",
+   "2026-04-03T17:15:00",
+   "2026-05-18T17:15:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (monthly)",
+  "resource": "Toronto Room 108",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=-1",
+  "dtStart": "2026-01-17T12:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Occupational Therapy (weekly)",
+  "resource": "Toronto Room 108",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH;UNTIL=20260401T235959Z",
+  "dtStart": "2025-09-19T15:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T15:15:00",
+   "2025-12-26T15:15:00",
+   "2026-01-01T15:15:00",
+   "2026-02-16T15:15:00",
+   "2026-04-03T15:15:00",
+   "2026-05-18T15:15:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (every two weeks)",
+  "resource": "Toronto Room 108",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=FR",
+  "dtStart": "2025-12-03T08:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T08:00:00",
+   "2025-12-26T08:00:00",
+   "2026-01-01T08:00:00",
+   "2026-02-16T08:00:00",
+   "2026-04-03T08:00:00",
+   "2026-05-18T08:00:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (weekly)",
+  "resource": "Toronto Room 108",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU;COUNT=29",
+  "dtStart": "2025-12-29T10:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T10:45:00",
+   "2025-12-26T10:45:00",
+   "2026-01-01T10:45:00",
+   "2026-02-16T10:45:00",
+   "2026-04-03T10:45:00",
+   "2026-05-18T10:45:00"
+  ]
+ },
+ {
+  "title": "Cardiology (twice weekly)",
+  "resource": "Toronto Room 108",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH,FR",
+  "dtStart": "2025-09-23T09:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T09:45:00",
+   "2025-12-26T09:45:00",
+   "2026-01-01T09:45:00",
+   "2026-02-16T09:45:00",
+   "2026-04-03T09:45:00",
+   "2026-05-18T09:45:00"
+  ]
+ },
+ {
+  "title": "Cardiology (twice weekly)",
+  "resource": "Toronto Room 109",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE,TH,FR",
+  "dtStart": "2025-11-29T17:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T17:00:00",
+   "2025-12-26T17:00:00",
+   "2026-01-01T17:00:00",
+   "2026-02-16T17:00:00",
+   "2026-04-03T17:00:00",
+   "2026-05-18T17:00:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "Toronto Room 109",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=1SA;COUNT=25",
+  "dtStart": "2025-10-29T08:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Audiology (last weekday review)",
+  "resource": "Toronto Room 109",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2026-01-20T15:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": []
+ },
+ {
+  "title": "Sleep Study Review (twice weekly)",
+  "resource": "Toronto Room 109",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,TH",
+  "dtStart": "2025-09-18T07:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T07:30:00",
+   "2025-12-26T07:30:00",
+   "2026-01-01T07:30:00",
+   "2026-02-16T07:30:00",
+   "2026-04-03T07:30:00",
+   "2026-05-18T07:30:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (every two weeks)",
+  "resource": "Toronto Room 109",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=WE",
+  "dtStart": "2025-12-28T16:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T16:15:00",
+   "2025-12-26T16:15:00",
+   "2026-01-01T16:15:00",
+   "2026-02-16T16:15:00",
+   "2026-04-03T16:15:00",
+   "2026-05-18T16:15:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (monthly)",
+  "resource": "Toronto Room 109",
+  "rrule": "FREQ=MONTHLY;BYDAY=2FR",
+  "dtStart": "2026-01-15T17:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Audiology (twice weekly)",
+  "resource": "Toronto Room 109",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,WE",
+  "dtStart": "2025-09-11T08:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T08:15:00",
+   "2025-12-26T08:15:00",
+   "2026-01-01T08:15:00",
+   "2026-02-16T08:15:00",
+   "2026-04-03T08:15:00",
+   "2026-05-18T08:15:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (weekly)",
+  "resource": "Toronto Room 109",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2026-01-19T17:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T17:00:00",
+   "2025-12-26T17:00:00",
+   "2026-01-01T17:00:00",
+   "2026-02-16T17:00:00",
+   "2026-04-03T17:00:00",
+   "2026-05-18T17:00:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (every two weeks)",
+  "resource": "Toronto Room 109",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH",
+  "dtStart": "2025-12-11T17:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T17:00:00",
+   "2025-12-26T17:00:00",
+   "2026-01-01T17:00:00",
+   "2026-02-16T17:00:00",
+   "2026-04-03T17:00:00",
+   "2026-05-18T17:00:00"
+  ]
+ },
+ {
+  "title": "Mental Health Group (twice weekly)",
+  "resource": "Toronto Room 109",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE,TH,FR;COUNT=33",
+  "dtStart": "2025-11-08T10:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T10:45:00",
+   "2025-12-26T10:45:00",
+   "2026-01-01T10:45:00",
+   "2026-02-16T10:45:00",
+   "2026-04-03T10:45:00",
+   "2026-05-18T10:45:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (twice weekly)",
+  "resource": "Toronto Room 109",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,TH;COUNT=23",
+  "dtStart": "2025-09-10T16:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T16:15:00",
+   "2025-12-26T16:15:00",
+   "2026-01-01T16:15:00",
+   "2026-02-16T16:15:00",
+   "2026-04-03T16:15:00",
+   "2026-05-18T16:15:00"
+  ]
+ },
+ {
+  "title": "Mental Health Group (last weekday review)",
+  "resource": "Toronto Room 109",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1;COUNT=30",
+  "dtStart": "2025-11-23T07:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Sleep Study Review (weekday mornings)",
+  "resource": "Toronto Room 109",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-09-25T15:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T15:00:00",
+   "2025-12-26T15:00:00",
+   "2026-01-01T15:00:00",
+   "2026-02-16T15:00:00",
+   "2026-04-03T15:00:00",
+   "2026-05-18T15:00:00"
+  ]
+ },
+ {
+  "title": "Wound Care (twice weekly)",
+  "resource": "Toronto Room 109",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,WE,TH",
+  "dtStart": "2025-09-13T14:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T14:45:00",
+   "2025-12-26T14:45:00",
+   "2026-01-01T14:45:00",
+   "2026-02-16T14:45:00",
+   "2026-04-03T14:45:00",
+   "2026-05-18T14:45:00"
+  ]
+ },
+ {
+  "title": "Audiology (twice weekly)",
+  "resource": "Toronto Room 109",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,FR",
+  "dtStart": "2025-10-08T13:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T13:30:00",
+   "2025-12-26T13:30:00",
+   "2026-01-01T13:30:00",
+   "2026-02-16T13:30:00",
+   "2026-04-03T13:30:00",
+   "2026-05-18T13:30:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (twice weekly)",
+  "resource": "Toronto Room 110",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,WE,FR;UNTIL=20260406T235959Z",
+  "dtStart": "2026-01-03T08:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T08:45:00",
+   "2025-12-26T08:45:00",
+   "2026-01-01T08:45:00",
+   "2026-02-16T08:45:00",
+   "2026-04-03T08:45:00",
+   "2026-05-18T08:45:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (weekly)",
+  "resource": "Toronto Room 110",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-09-02T15:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T15:45:00",
+   "2025-12-26T15:45:00",
+   "2026-01-01T15:45:00",
+   "2026-02-16T15:45:00",
+   "2026-04-03T15:45:00",
+   "2026-05-18T15:45:00"
+  ]
+ },
+ {
+  "title": "Physiotherapy (weekday mornings)",
+  "resource": "Toronto Room 110",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-11-08T13:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T13:00:00",
+   "2025-12-26T13:00:00",
+   "2026-01-01T13:00:00",
+   "2026-02-16T13:00:00",
+   "2026-04-03T13:00:00",
+   "2026-05-18T13:00:00"
+  ]
+ },
+ {
+  "title": "Dermatology (weekly)",
+  "resource": "Toronto Room 110",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2026-01-13T10:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T10:30:00",
+   "2025-12-26T10:30:00",
+   "2026-01-01T10:30:00",
+   "2026-02-16T10:30:00",
+   "2026-04-03T10:30:00",
+   "2026-05-18T10:30:00"
+  ]
+ },
+ {
+  "title": "Audiology (monthly)",
+  "resource": "Toronto Room 110",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+  "dtStart": "2025-09-18T16:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Occupational Therapy (weekly)",
+  "resource": "Toronto Room 110",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2026-01-17T16:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T16:30:00",
+   "2025-12-26T16:30:00",
+   "2026-01-01T16:30:00",
+   "2026-02-16T16:30:00",
+   "2026-04-03T16:30:00",
+   "2026-05-18T16:30:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (every two weeks)",
+  "resource": "Toronto Room 110",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TU;UNTIL=20260625T235959Z",
+  "dtStart": "2025-12-20T12:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T12:30:00",
+   "2025-12-26T12:30:00",
+   "2026-01-01T12:30:00",
+   "2026-02-16T12:30:00",
+   "2026-04-03T12:30:00",
+   "2026-05-18T12:30:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (monthly)",
+  "resource": "Toronto Room 110",
+  "rrule": "FREQ=MONTHLY;BYDAY=3MO",
+  "dtStart": "2026-01-20T10:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Oncology Follow-up (monthly)",
+  "resource": "Toronto Room 110",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=1;COUNT=31",
+  "dtStart": "2025-10-17T14:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Mental Health Group (last weekday review)",
+  "resource": "Toronto Room 110",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2026-01-23T14:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Allergy Shots (weekly)",
+  "resource": "Toronto Room 110",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-11-17T09:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T09:45:00",
+   "2025-12-26T09:45:00",
+   "2026-01-01T09:45:00",
+   "2026-02-16T09:45:00",
+   "2026-04-03T09:45:00",
+   "2026-05-18T09:45:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (weekday mornings)",
+  "resource": "Toronto Room 110",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-11-22T11:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T11:15:00",
+   "2025-12-26T11:15:00",
+   "2026-01-01T11:15:00",
+   "2026-02-16T11:15:00",
+   "2026-04-03T11:15:00",
+   "2026-05-18T11:15:00"
+  ]
+ },
+ {
+  "title": "Physiotherapy (monthly)",
+  "resource": "Toronto Room 110",
+  "rrule": "FREQ=MONTHLY;BYDAY=3MO",
+  "dtStart": "2025-09-03T13:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Occupational Therapy (weekly)",
+  "resource": "Toronto Room 110",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO;COUNT=30",
+  "dtStart": "2025-10-25T16:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T16:00:00",
+   "2025-12-26T16:00:00",
+   "2026-01-01T16:00:00",
+   "2026-02-16T16:00:00",
+   "2026-04-03T16:00:00",
+   "2026-05-18T16:00:00"
+  ]
+ },
+ {
+  "title": "Dermatology (twice weekly)",
+  "resource": "Toronto Room 110",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,FR",
+  "dtStart": "2025-09-12T09:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T09:30:00",
+   "2025-12-26T09:30:00",
+   "2026-01-01T09:30:00",
+   "2026-02-16T09:30:00",
+   "2026-04-03T09:30:00",
+   "2026-05-18T09:30:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (monthly)",
+  "resource": "Toronto Room 110",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=15;COUNT=15",
+  "dtStart": "2025-10-24T13:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Prenatal Care (monthly)",
+  "resource": "Toronto Room 111",
+  "rrule": "FREQ=MONTHLY;BYDAY=2MO;UNTIL=20260129T235959Z",
+  "dtStart": "2025-09-13T10:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Orthopaedics (monthly)",
+  "resource": "Toronto Room 111",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=-1",
+  "dtStart": "2025-09-10T15:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Nutrition Counselling (last weekday review)",
+  "resource": "Toronto Room 111",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1;COUNT=35",
+  "dtStart": "2025-09-15T09:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Speech Therapy (twice weekly)",
+  "resource": "Toronto Room 111",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,WE,TH",
+  "dtStart": "2025-12-07T12:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T12:30:00",
+   "2025-12-26T12:30:00",
+   "2026-01-01T12:30:00",
+   "2026-02-16T12:30:00",
+   "2026-04-03T12:30:00",
+   "2026-05-18T12:30:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "Toronto Room 111",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=1SA",
+  "dtStart": "2025-12-15T07:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 240,
+  "exDates": []
+ },
+ {
+  "title": "Mental Health Group (weekly)",
+  "resource": "Toronto Room 111",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-09-18T16:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T16:45:00",
+   "2025-12-26T16:45:00",
+   "2026-01-01T16:45:00",
+   "2026-02-16T16:45:00",
+   "2026-04-03T16:45:00",
+   "2026-05-18T16:45:00"
+  ]
+ },
+ {
+  "title": "Mental Health Group (weekly)",
+  "resource": "Toronto Room 111",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-10-22T13:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T13:30:00",
+   "2025-12-26T13:30:00",
+   "2026-01-01T13:30:00",
+   "2026-02-16T13:30:00",
+   "2026-04-03T13:30:00",
+   "2026-05-18T13:30:00"
+  ]
+ },
+ {
+  "title": "Mental Health Group (twice weekly)",
+  "resource": "Toronto Room 111",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TH",
+  "dtStart": "2025-10-27T09:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T09:15:00",
+   "2025-12-26T09:15:00",
+   "2026-01-01T09:15:00",
+   "2026-02-16T09:15:00",
+   "2026-04-03T09:15:00",
+   "2026-05-18T09:15:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (twice weekly)",
+  "resource": "Toronto Room 111",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH,FR;COUNT=24",
+  "dtStart": "2025-12-09T11:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T11:45:00",
+   "2025-12-26T11:45:00",
+   "2026-01-01T11:45:00",
+   "2026-02-16T11:45:00",
+   "2026-04-03T11:45:00",
+   "2026-05-18T11:45:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (every two weeks)",
+  "resource": "Toronto Room 111",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TU",
+  "dtStart": "2026-01-24T15:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T15:15:00",
+   "2025-12-26T15:15:00",
+   "2026-01-01T15:15:00",
+   "2026-02-16T15:15:00",
+   "2026-04-03T15:15:00",
+   "2026-05-18T15:15:00"
+  ]
+ },
+ {
+  "title": "Nutrition Counselling (weekly)",
+  "resource": "Toronto Room 111",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH;COUNT=38",
+  "dtStart": "2026-01-20T10:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T10:15:00",
+   "2025-12-26T10:15:00",
+   "2026-01-01T10:15:00",
+   "2026-02-16T10:15:00",
+   "2026-04-03T10:15:00",
+   "2026-05-18T10:15:00"
+  ]
+ },
+ {
+  "title": "Nutrition Counselling (weekday mornings)",
+  "resource": "Toronto Room 111",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;COUNT=24",
+  "dtStart": "2025-09-16T08:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T08:45:00",
+   "2025-12-26T08:45:00",
+   "2026-01-01T08:45:00",
+   "2026-02-16T08:45:00",
+   "2026-04-03T08:45:00",
+   "2026-05-18T08:45:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (twice weekly)",
+  "resource": "Toronto Room 111",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE;UNTIL=20261204T235959Z",
+  "dtStart": "2025-11-26T11:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T11:30:00",
+   "2025-12-26T11:30:00",
+   "2026-01-01T11:30:00",
+   "2026-02-16T11:30:00",
+   "2026-04-03T11:30:00",
+   "2026-05-18T11:30:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (monthly)",
+  "resource": "Toronto Room 111",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+  "dtStart": "2025-09-19T14:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Diabetes Clinic (weekly)",
+  "resource": "Toronto Room 112",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2026-01-04T15:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T15:15:00",
+   "2025-12-26T15:15:00",
+   "2026-01-01T15:15:00",
+   "2026-02-16T15:15:00",
+   "2026-04-03T15:15:00",
+   "2026-05-18T15:15:00"
+  ]
+ },
+ {
+  "title": "Nutrition Counselling (weekly)",
+  "resource": "Toronto Room 112",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU",
+  "dtStart": "2025-11-02T09:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T09:45:00",
+   "2025-12-26T09:45:00",
+   "2026-01-01T09:45:00",
+   "2026-02-16T09:45:00",
+   "2026-04-03T09:45:00",
+   "2026-05-18T09:45:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (twice weekly)",
+  "resource": "Toronto Room 112",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE",
+  "dtStart": "2025-12-04T10:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T10:45:00",
+   "2025-12-26T10:45:00",
+   "2026-01-01T10:45:00",
+   "2026-02-16T10:45:00",
+   "2026-04-03T10:45:00",
+   "2026-05-18T10:45:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (twice weekly)",
+  "resource": "Toronto Room 112",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,FR;UNTIL=20270415T235959Z",
+  "dtStart": "2025-11-03T10:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T10:30:00",
+   "2025-12-26T10:30:00",
+   "2026-01-01T10:30:00",
+   "2026-02-16T10:30:00",
+   "2026-04-03T10:30:00",
+   "2026-05-18T10:30:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (monthly)",
+  "resource": "Toronto Room 112",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+  "dtStart": "2025-11-29T10:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Paediatrics (weekly)",
+  "resource": "Toronto Room 112",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO;UNTIL=20270413T235959Z",
+  "dtStart": "2026-01-16T09:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T09:30:00",
+   "2025-12-26T09:30:00",
+   "2026-01-01T09:30:00",
+   "2026-02-16T09:30:00",
+   "2026-04-03T09:30:00",
+   "2026-05-18T09:30:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (every two weeks)",
+  "resource": "Toronto Room 112",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=WE",
+  "dtStart": "2025-11-11T12:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T12:15:00",
+   "2025-12-26T12:15:00",
+   "2026-01-01T12:15:00",
+   "2026-02-16T12:15:00",
+   "2026-04-03T12:15:00",
+   "2026-05-18T12:15:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (monthly)",
+  "resource": "Toronto Room 112",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=-1",
+  "dtStart": "2026-01-01T09:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Oncology Follow-up (weekly)",
+  "resource": "Toronto Room 112",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO",
+  "dtStart": "2025-10-27T15:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T15:15:00",
+   "2025-12-26T15:15:00",
+   "2026-01-01T15:15:00",
+   "2026-02-16T15:15:00",
+   "2026-04-03T15:15:00",
+   "2026-05-18T15:15:00"
+  ]
+ },
+ {
+  "title": "Audiology (weekly)",
+  "resource": "Toronto Room 112",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO",
+  "dtStart": "2026-01-11T07:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T07:45:00",
+   "2025-12-26T07:45:00",
+   "2026-01-01T07:45:00",
+   "2026-02-16T07:45:00",
+   "2026-04-03T07:45:00",
+   "2026-05-18T07:45:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (twice weekly)",
+  "resource": "Toronto Room 112",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,FR",
+  "dtStart": "2026-01-23T08:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T08:15:00",
+   "2025-12-26T08:15:00",
+   "2026-01-01T08:15:00",
+   "2026-02-16T08:15:00",
+   "2026-04-03T08:15:00",
+   "2026-05-18T08:15:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (twice weekly)",
+  "resource": "Toronto Room 112",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,TH",
+  "dtStart": "2026-01-09T13:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T13:30:00",
+   "2025-12-26T13:30:00",
+   "2026-01-01T13:30:00",
+   "2026-02-16T13:30:00",
+   "2026-04-03T13:30:00",
+   "2026-05-18T13:30:00"
+  ]
+ },
+ {
+  "title": "Nutrition Counselling (monthly)",
+  "resource": "Toronto Room 112",
+  "rrule": "FREQ=MONTHLY;BYDAY=1TU",
+  "dtStart": "2025-10-24T14:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Occupational Therapy (every two weeks)",
+  "resource": "Toronto Room 112",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO",
+  "dtStart": "2025-10-23T15:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T15:30:00",
+   "2025-12-26T15:30:00",
+   "2026-01-01T15:30:00",
+   "2026-02-16T15:30:00",
+   "2026-04-03T15:30:00",
+   "2026-05-18T15:30:00"
+  ]
+ },
+ {
+  "title": "Physiotherapy (last weekday review)",
+  "resource": "Toronto Room 113",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-10-14T08:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": []
+ },
+ {
+  "title": "Dermatology (twice weekly)",
+  "resource": "Toronto Room 113",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE,TH,FR",
+  "dtStart": "2025-11-27T17:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T17:00:00",
+   "2025-12-26T17:00:00",
+   "2026-01-01T17:00:00",
+   "2026-02-16T17:00:00",
+   "2026-04-03T17:00:00",
+   "2026-05-18T17:00:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "Toronto Room 113",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=2SA",
+  "dtStart": "2025-12-18T08:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 240,
+  "exDates": []
+ },
+ {
+  "title": "Oncology Follow-up (weekly)",
+  "resource": "Toronto Room 113",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU",
+  "dtStart": "2025-11-05T08:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T08:30:00",
+   "2025-12-26T08:30:00",
+   "2026-01-01T08:30:00",
+   "2026-02-16T08:30:00",
+   "2026-04-03T08:30:00",
+   "2026-05-18T08:30:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (last weekday review)",
+  "resource": "Toronto Room 113",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2026-01-13T12:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": []
+ },
+ {
+  "title": "Mental Health Group (weekly)",
+  "resource": "Toronto Room 113",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-12-23T08:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T08:15:00",
+   "2025-12-26T08:15:00",
+   "2026-01-01T08:15:00",
+   "2026-02-16T08:15:00",
+   "2026-04-03T08:15:00",
+   "2026-05-18T08:15:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (monthly)",
+  "resource": "Toronto Room 113",
+  "rrule": "FREQ=MONTHLY;BYDAY=-1MO",
+  "dtStart": "2025-10-15T16:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Diabetes Clinic (twice weekly)",
+  "resource": "Toronto Room 113",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,FR;COUNT=33",
+  "dtStart": "2025-10-22T15:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T15:30:00",
+   "2025-12-26T15:30:00",
+   "2026-01-01T15:30:00",
+   "2026-02-16T15:30:00",
+   "2026-04-03T15:30:00",
+   "2026-05-18T15:30:00"
+  ]
+ },
+ {
+  "title": "Audiology (twice weekly)",
+  "resource": "Toronto Room 113",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,WE,TH",
+  "dtStart": "2025-09-14T08:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T08:15:00",
+   "2025-12-26T08:15:00",
+   "2026-01-01T08:15:00",
+   "2026-02-16T08:15:00",
+   "2026-04-03T08:15:00",
+   "2026-05-18T08:15:00"
+  ]
+ },
+ {
+  "title": "Physiotherapy (monthly)",
+  "resource": "Toronto Room 113",
+  "rrule": "FREQ=MONTHLY;BYDAY=3MO",
+  "dtStart": "2025-09-22T12:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Dermatology (twice weekly)",
+  "resource": "Toronto Room 113",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,FR",
+  "dtStart": "2025-09-22T08:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T08:30:00",
+   "2025-12-26T08:30:00",
+   "2026-01-01T08:30:00",
+   "2026-02-16T08:30:00",
+   "2026-04-03T08:30:00",
+   "2026-05-18T08:30:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (weekday mornings)",
+  "resource": "Toronto Room 113",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2026-01-27T10:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T10:15:00",
+   "2025-12-26T10:15:00",
+   "2026-01-01T10:15:00",
+   "2026-02-16T10:15:00",
+   "2026-04-03T10:15:00",
+   "2026-05-18T10:15:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (twice weekly)",
+  "resource": "Toronto Room 113",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE,TH,FR",
+  "dtStart": "2026-01-13T11:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T11:30:00",
+   "2025-12-26T11:30:00",
+   "2026-01-01T11:30:00",
+   "2026-02-16T11:30:00",
+   "2026-04-03T11:30:00",
+   "2026-05-18T11:30:00"
+  ]
+ },
+ {
+  "title": "Cardiology (weekly)",
+  "resource": "Toronto Room 113",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2026-01-04T10:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T10:00:00",
+   "2025-12-26T10:00:00",
+   "2026-01-01T10:00:00",
+   "2026-02-16T10:00:00",
+   "2026-04-03T10:00:00",
+   "2026-05-18T10:00:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (last weekday review)",
+  "resource": "Toronto Room 113",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1;COUNT=13",
+  "dtStart": "2026-01-14T12:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Paediatrics (twice weekly)",
+  "resource": "Toronto Room 114",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,TH",
+  "dtStart": "2025-09-30T15:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T15:15:00",
+   "2025-12-26T15:15:00",
+   "2026-01-01T15:15:00",
+   "2026-02-16T15:15:00",
+   "2026-04-03T15:15:00",
+   "2026-05-18T15:15:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (monthly)",
+  "resource": "Toronto Room 114",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=15",
+  "dtStart": "2025-09-30T09:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Occupational Therapy (twice weekly)",
+  "resource": "Toronto Room 114",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE,FR;COUNT=28",
+  "dtStart": "2025-09-02T15:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T15:45:00",
+   "2025-12-26T15:45:00",
+   "2026-01-01T15:45:00",
+   "2026-02-16T15:45:00",
+   "2026-04-03T15:45:00",
+   "2026-05-18T15:45:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "Toronto Room 114",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=1SA",
+  "dtStart": "2025-11-09T07:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 240,
+  "exDates": []
+ },
+ {
+  "title": "Cardiology (every two weeks)",
+  "resource": "Toronto Room 114",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;COUNT=34",
+  "dtStart": "2025-09-08T16:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T16:30:00",
+   "2025-12-26T16:30:00",
+   "2026-01-01T16:30:00",
+   "2026-02-16T16:30:00",
+   "2026-04-03T16:30:00",
+   "2026-05-18T16:30:00"
+  ]
+ },
+ {
+  "title": "Cardiology (twice weekly)",
+  "resource": "Toronto Room 114",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU",
+  "dtStart": "2025-09-21T09:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T09:00:00",
+   "2025-12-26T09:00:00",
+   "2026-01-01T09:00:00",
+   "2026-02-16T09:00:00",
+   "2026-04-03T09:00:00",
+   "2026-05-18T09:00:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (every two weeks)",
+  "resource": "Toronto Room 114",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=FR",
+  "dtStart": "2025-09-28T08:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T08:00:00",
+   "2025-12-26T08:00:00",
+   "2026-01-01T08:00:00",
+   "2026-02-16T08:00:00",
+   "2026-04-03T08:00:00",
+   "2026-05-18T08:00:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (weekly)",
+  "resource": "Toronto Room 114",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20270422T235959Z",
+  "dtStart": "2025-10-31T15:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T15:30:00",
+   "2025-12-26T15:30:00",
+   "2026-01-01T15:30:00",
+   "2026-02-16T15:30:00",
+   "2026-04-03T15:30:00",
+   "2026-05-18T15:30:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (monthly)",
+  "resource": "Toronto Room 114",
+  "rrule": "FREQ=MONTHLY;BYDAY=1TU",
+  "dtStart": "2026-01-15T11:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Sleep Study Review (weekly)",
+  "resource": "Toronto Room 114",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-09-02T10:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T10:15:00",
+   "2025-12-26T10:15:00",
+   "2026-01-01T10:15:00",
+   "2026-02-16T10:15:00",
+   "2026-04-03T10:15:00",
+   "2026-05-18T10:15:00"
+  ]
+ },
+ {
+  "title": "Wound Care (weekday mornings)",
+  "resource": "Toronto Room 114",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2026-01-20T16:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T16:00:00",
+   "2025-12-26T16:00:00",
+   "2026-01-01T16:00:00",
+   "2026-02-16T16:00:00",
+   "2026-04-03T16:00:00",
+   "2026-05-18T16:00:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (twice weekly)",
+  "resource": "Toronto Room 114",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,WE",
+  "dtStart": "2025-11-12T15:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T15:30:00",
+   "2025-12-26T15:30:00",
+   "2026-01-01T15:30:00",
+   "2026-02-16T15:30:00",
+   "2026-04-03T15:30:00",
+   "2026-05-18T15:30:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (monthly)",
+  "resource": "Toronto Room 114",
+  "rrule": "FREQ=MONTHLY;BYDAY=3TH",
+  "dtStart": "2025-11-01T11:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Dermatology (twice weekly)",
+  "resource": "Toronto Room 114",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE,TH,FR",
+  "dtStart": "2025-10-24T16:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T16:45:00",
+   "2025-12-26T16:45:00",
+   "2026-01-01T16:45:00",
+   "2026-02-16T16:45:00",
+   "2026-04-03T16:45:00",
+   "2026-05-18T16:45:00"
+  ]
+ },
+ {
+  "title": "Cardiology (every two weeks)",
+  "resource": "Toronto Room 115",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=FR",
+  "dtStart": "2026-01-08T14:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T14:30:00",
+   "2025-12-26T14:30:00",
+   "2026-01-01T14:30:00",
+   "2026-02-16T14:30:00",
+   "2026-04-03T14:30:00",
+   "2026-05-18T14:30:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (last weekday review)",
+  "resource": "Toronto Room 115",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-11-01T15:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Prenatal Care (monthly)",
+  "resource": "Toronto Room 115",
+  "rrule": "FREQ=MONTHLY;BYDAY=-1MO",
+  "dtStart": "2025-09-17T13:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Paediatrics (monthly)",
+  "resource": "Toronto Room 115",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=10;UNTIL=20260603T235959Z",
+  "dtStart": "2025-12-01T12:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Allergy Shots (weekly)",
+  "resource": "Toronto Room 115",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE;UNTIL=20270215T235959Z",
+  "dtStart": "2025-11-06T08:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T08:30:00",
+   "2025-12-26T08:30:00",
+   "2026-01-01T08:30:00",
+   "2026-02-16T08:30:00",
+   "2026-04-03T08:30:00",
+   "2026-05-18T08:30:00"
+  ]
+ },
+ {
+  "title": "Cardiology (every two weeks)",
+  "resource": "Toronto Room 115",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO",
+  "dtStart": "2026-01-16T09:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T09:45:00",
+   "2025-12-26T09:45:00",
+   "2026-01-01T09:45:00",
+   "2026-02-16T09:45:00",
+   "2026-04-03T09:45:00",
+   "2026-05-18T09:45:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "Toronto Room 115",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=2SA",
+  "dtStart": "2025-10-03T06:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Mental Health Group (weekly)",
+  "resource": "Toronto Room 115",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR;COUNT=21",
+  "dtStart": "2025-10-20T12:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T12:30:00",
+   "2025-12-26T12:30:00",
+   "2026-01-01T12:30:00",
+   "2026-02-16T12:30:00",
+   "2026-04-03T12:30:00",
+   "2026-05-18T12:30:00"
+  ]
+ },
+ {
+  "title": "Mental Health Group (weekly)",
+  "resource": "Toronto Room 115",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU",
+  "dtStart": "2025-12-29T14:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T14:15:00",
+   "2025-12-26T14:15:00",
+   "2026-01-01T14:15:00",
+   "2026-02-16T14:15:00",
+   "2026-04-03T14:15:00",
+   "2026-05-18T14:15:00"
+  ]
+ },
+ {
+  "title": "Nutrition Counselling (every two weeks)",
+  "resource": "Toronto Room 115",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO",
+  "dtStart": "2025-12-10T11:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T11:15:00",
+   "2025-12-26T11:15:00",
+   "2026-01-01T11:15:00",
+   "2026-02-16T11:15:00",
+   "2026-04-03T11:15:00",
+   "2026-05-18T11:15:00"
+  ]
+ },
+ {
+  "title": "Dermatology (twice weekly)",
+  "resource": "Toronto Room 115",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE",
+  "dtStart": "2026-01-10T07:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T07:45:00",
+   "2025-12-26T07:45:00",
+   "2026-01-01T07:45:00",
+   "2026-02-16T07:45:00",
+   "2026-04-03T07:45:00",
+   "2026-05-18T07:45:00"
+  ]
+ },
+ {
+  "title": "Dermatology (twice weekly)",
+  "resource": "Toronto Room 115",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TH,FR",
+  "dtStart": "2025-09-30T07:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T07:30:00",
+   "2025-12-26T07:30:00",
+   "2026-01-01T07:30:00",
+   "2026-02-16T07:30:00",
+   "2026-04-03T07:30:00",
+   "2026-05-18T07:30:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (last weekday review)",
+  "resource": "Toronto Room 115",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-09-04T16:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Prenatal Care (twice weekly)",
+  "resource": "Toronto Room 115",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE",
+  "dtStart": "2025-11-11T12:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T12:45:00",
+   "2025-12-26T12:45:00",
+   "2026-01-01T12:45:00",
+   "2026-02-16T12:45:00",
+   "2026-04-03T12:45:00",
+   "2026-05-18T12:45:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (weekly)",
+  "resource": "Toronto Room 115",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO;UNTIL=20260622T235959Z",
+  "dtStart": "2026-01-24T07:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T07:15:00",
+   "2025-12-26T07:15:00",
+   "2026-01-01T07:15:00",
+   "2026-02-16T07:15:00",
+   "2026-04-03T07:15:00",
+   "2026-05-18T07:15:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (every two weeks)",
+  "resource": "Toronto Room 115",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TU",
+  "dtStart": "2025-11-06T14:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T14:45:00",
+   "2025-12-26T14:45:00",
+   "2026-01-01T14:45:00",
+   "2026-02-16T14:45:00",
+   "2026-04-03T14:45:00",
+   "2026-05-18T14:45:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (weekly)",
+  "resource": "Toronto Room 116",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-11-15T17:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T17:45:00",
+   "2025-12-26T17:45:00",
+   "2026-01-01T17:45:00",
+   "2026-02-16T17:45:00",
+   "2026-04-03T17:45:00",
+   "2026-05-18T17:45:00"
+  ]
+ },
+ {
+  "title": "Audiology (weekly)",
+  "resource": "Toronto Room 116",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-09-14T14:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T14:45:00",
+   "2025-12-26T14:45:00",
+   "2026-01-01T14:45:00",
+   "2026-02-16T14:45:00",
+   "2026-04-03T14:45:00",
+   "2026-05-18T14:45:00"
+  ]
+ },
+ {
+  "title": "Dermatology (twice weekly)",
+  "resource": "Toronto Room 116",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE,FR;UNTIL=20261104T235959Z",
+  "dtStart": "2026-01-12T11:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T11:15:00",
+   "2025-12-26T11:15:00",
+   "2026-01-01T11:15:00",
+   "2026-02-16T11:15:00",
+   "2026-04-03T11:15:00",
+   "2026-05-18T11:15:00"
+  ]
+ },
+ {
+  "title": "Mental Health Group (every two weeks)",
+  "resource": "Toronto Room 116",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=FR;UNTIL=20270420T235959Z",
+  "dtStart": "2026-01-10T14:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T14:15:00",
+   "2025-12-26T14:15:00",
+   "2026-01-01T14:15:00",
+   "2026-02-16T14:15:00",
+   "2026-04-03T14:15:00",
+   "2026-05-18T14:15:00"
+  ]
+ },
+ {
+  "title": "Cardiology (monthly)",
+  "resource": "Toronto Room 116",
+  "rrule": "FREQ=MONTHLY;BYDAY=-1FR",
+  "dtStart": "2025-12-24T08:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Cardiology (weekly)",
+  "resource": "Toronto Room 116",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2026-01-22T08:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T08:00:00",
+   "2025-12-26T08:00:00",
+   "2026-01-01T08:00:00",
+   "2026-02-16T08:00:00",
+   "2026-04-03T08:00:00",
+   "2026-05-18T08:00:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (monthly)",
+  "resource": "Toronto Room 116",
+  "rrule": "FREQ=MONTHLY;BYDAY=1TU",
+  "dtStart": "2025-11-28T17:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Physiotherapy (last weekday review)",
+  "resource": "Toronto Room 116",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-09-09T11:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": []
+ },
+ {
+  "title": "Allergy Shots (weekly)",
+  "resource": "Toronto Room 116",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH;UNTIL=20261001T235959Z",
+  "dtStart": "2025-10-04T13:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T13:45:00",
+   "2025-12-26T13:45:00",
+   "2026-01-01T13:45:00",
+   "2026-02-16T13:45:00",
+   "2026-04-03T13:45:00",
+   "2026-05-18T13:45:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (weekly)",
+  "resource": "Toronto Room 116",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-11-14T07:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T07:00:00",
+   "2025-12-26T07:00:00",
+   "2026-01-01T07:00:00",
+   "2026-02-16T07:00:00",
+   "2026-04-03T07:00:00",
+   "2026-05-18T07:00:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (twice weekly)",
+  "resource": "Toronto Room 116",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,FR",
+  "dtStart": "2025-10-24T14:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T14:30:00",
+   "2025-12-26T14:30:00",
+   "2026-01-01T14:30:00",
+   "2026-02-16T14:30:00",
+   "2026-04-03T14:30:00",
+   "2026-05-18T14:30:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (every two weeks)",
+  "resource": "Toronto Room 116",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO;COUNT=27",
+  "dtStart": "2025-12-28T10:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T10:30:00",
+   "2025-12-26T10:30:00",
+   "2026-01-01T10:30:00",
+   "2026-02-16T10:30:00",
+   "2026-04-03T10:30:00",
+   "2026-05-18T10:30:00"
+  ]
+ },
+ {
+  "title": "Mental Health Group (every two weeks)",
+  "resource": "Toronto Room 116",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO",
+  "dtStart": "2025-12-22T07:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T07:30:00",
+   "2025-12-26T07:30:00",
+   "2026-01-01T07:30:00",
+   "2026-02-16T07:30:00",
+   "2026-04-03T07:30:00",
+   "2026-05-18T07:30:00"
+  ]
+ },
+ {
+  "title": "Dermatology (weekly)",
+  "resource": "Toronto Room 116",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2026-01-16T16:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T16:00:00",
+   "2025-12-26T16:00:00",
+   "2026-01-01T16:00:00",
+   "2026-02-16T16:00:00",
+   "2026-04-03T16:00:00",
+   "2026-05-18T16:00:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (weekday mornings)",
+  "resource": "Toronto Room 116",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-12-08T15:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T15:45:00",
+   "2025-12-26T15:45:00",
+   "2026-01-01T15:45:00",
+   "2026-02-16T15:45:00",
+   "2026-04-03T15:45:00",
+   "2026-05-18T15:45:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (weekly)",
+  "resource": "Toronto Room 117",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2026-01-08T17:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T17:45:00",
+   "2025-12-26T17:45:00",
+   "2026-01-01T17:45:00",
+   "2026-02-16T17:45:00",
+   "2026-04-03T17:45:00",
+   "2026-05-18T17:45:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (weekly)",
+  "resource": "Toronto Room 117",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO;UNTIL=20260424T235959Z",
+  "dtStart": "2025-10-25T17:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T17:45:00",
+   "2025-12-26T17:45:00",
+   "2026-01-01T17:45:00",
+   "2026-02-16T17:45:00",
+   "2026-04-03T17:45:00",
+   "2026-05-18T17:45:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (twice weekly)",
+  "resource": "Toronto Room 117",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,WE,TH",
+  "dtStart": "2025-10-23T16:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T16:30:00",
+   "2025-12-26T16:30:00",
+   "2026-01-01T16:30:00",
+   "2026-02-16T16:30:00",
+   "2026-04-03T16:30:00",
+   "2026-05-18T16:30:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (weekly)",
+  "resource": "Toronto Room 117",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU",
+  "dtStart": "2025-10-07T13:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T13:00:00",
+   "2025-12-26T13:00:00",
+   "2026-01-01T13:00:00",
+   "2026-02-16T13:00:00",
+   "2026-04-03T13:00:00",
+   "2026-05-18T13:00:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (last weekday review)",
+  "resource": "Toronto Room 117",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1;COUNT=30",
+  "dtStart": "2025-11-10T09:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": []
+ },
+ {
+  "title": "Oncology Follow-up (last weekday review)",
+  "resource": "Toronto Room 117",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1;COUNT=10",
+  "dtStart": "2025-10-30T16:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Nutrition Counselling (monthly)",
+  "resource": "Toronto Room 117",
+  "rrule": "FREQ=MONTHLY;BYDAY=3TU",
+  "dtStart": "2026-01-17T17:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Orthopaedics (monthly)",
+  "resource": "Toronto Room 117",
+  "rrule": "FREQ=MONTHLY;BYDAY=3MO",
+  "dtStart": "2025-09-10T09:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Cardiology (twice weekly)",
+  "resource": "Toronto Room 117",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TH,FR;UNTIL=20270317T235959Z",
+  "dtStart": "2026-01-16T15:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T15:30:00",
+   "2025-12-26T15:30:00",
+   "2026-01-01T15:30:00",
+   "2026-02-16T15:30:00",
+   "2026-04-03T15:30:00",
+   "2026-05-18T15:30:00"
+  ]
+ },
+ {
+  "title": "Audiology (every two weeks)",
+  "resource": "Toronto Room 117",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TU",
+  "dtStart": "2026-01-16T12:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T12:45:00",
+   "2025-12-26T12:45:00",
+   "2026-01-01T12:45:00",
+   "2026-02-16T12:45:00",
+   "2026-04-03T12:45:00",
+   "2026-05-18T12:45:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (weekly)",
+  "resource": "Toronto Room 117",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH;COUNT=27",
+  "dtStart": "2025-10-22T08:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T08:15:00",
+   "2025-12-26T08:15:00",
+   "2026-01-01T08:15:00",
+   "2026-02-16T08:15:00",
+   "2026-04-03T08:15:00",
+   "2026-05-18T08:15:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (weekly)",
+  "resource": "Toronto Room 117",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO;COUNT=24",
+  "dtStart": "2026-01-16T17:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T17:45:00",
+   "2025-12-26T17:45:00",
+   "2026-01-01T17:45:00",
+   "2026-02-16T17:45:00",
+   "2026-04-03T17:45:00",
+   "2026-05-18T17:45:00"
+  ]
+ },
+ {
+  "title": "Audiology (twice weekly)",
+  "resource": "Toronto Room 117",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,WE,FR",
+  "dtStart": "2026-01-07T15:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T15:00:00",
+   "2025-12-26T15:00:00",
+   "2026-01-01T15:00:00",
+   "2026-02-16T15:00:00",
+   "2026-04-03T15:00:00",
+   "2026-05-18T15:00:00"
+  ]
+ },
+ {
+  "title": "Mental Health Group (weekly)",
+  "resource": "Toronto Room 118",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2026-01-02T11:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T11:00:00",
+   "2025-12-26T11:00:00",
+   "2026-01-01T11:00:00",
+   "2026-02-16T11:00:00",
+   "2026-04-03T11:00:00",
+   "2026-05-18T11:00:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (twice weekly)",
+  "resource": "Toronto Room 118",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,WE,TH",
+  "dtStart": "2026-01-06T10:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T10:45:00",
+   "2025-12-26T10:45:00",
+   "2026-01-01T10:45:00",
+   "2026-02-16T10:45:00",
+   "2026-04-03T10:45:00",
+   "2026-05-18T10:45:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (twice weekly)",
+  "resource": "Toronto Room 118",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,WE,TH;COUNT=18",
+  "dtStart": "2025-12-13T14:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T14:00:00",
+   "2025-12-26T14:00:00",
+   "2026-01-01T14:00:00",
+   "2026-02-16T14:00:00",
+   "2026-04-03T14:00:00",
+   "2026-05-18T14:00:00"
+  ]
+ },
+ {
+  "title": "Wound Care (twice weekly)",
+  "resource": "Toronto Room 118",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,FR",
+  "dtStart": "2025-10-16T11:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T11:00:00",
+   "2025-12-26T11:00:00",
+   "2026-01-01T11:00:00",
+   "2026-02-16T11:00:00",
+   "2026-04-03T11:00:00",
+   "2026-05-18T11:00:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (weekday mornings)",
+  "resource": "Toronto Room 118",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-12-02T14:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T14:45:00",
+   "2025-12-26T14:45:00",
+   "2026-01-01T14:45:00",
+   "2026-02-16T14:45:00",
+   "2026-04-03T14:45:00",
+   "2026-05-18T14:45:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "Toronto Room 118",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=2SA",
+  "dtStart": "2025-10-11T08:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Sleep Study Review (every two weeks)",
+  "resource": "Toronto Room 118",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TU;COUNT=15",
+  "dtStart": "2025-10-15T07:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T07:00:00",
+   "2025-12-26T07:00:00",
+   "2026-01-01T07:00:00",
+   "2026-02-16T07:00:00",
+   "2026-04-03T07:00:00",
+   "2026-05-18T07:00:00"
+  ]
+ },
+ {
+  "title": "Wound Care (last weekday review)",
+  "resource": "Toronto Room 118",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-11-19T13:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": []
+ },
+ {
+  "title": "Occupational Therapy (twice weekly)",
+  "resource": "Toronto Room 118",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE,FR;COUNT=33",
+  "dtStart": "2025-12-10T13:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T13:00:00",
+   "2025-12-26T13:00:00",
+   "2026-01-01T13:00:00",
+   "2026-02-16T13:00:00",
+   "2026-04-03T13:00:00",
+   "2026-05-18T13:00:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (weekly)",
+  "resource": "Toronto Room 118",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO",
+  "dtStart": "2025-10-30T11:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T11:15:00",
+   "2025-12-26T11:15:00",
+   "2026-01-01T11:15:00",
+   "2026-02-16T11:15:00",
+   "2026-04-03T11:15:00",
+   "2026-05-18T11:15:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (weekly)",
+  "resource": "Toronto Room 118",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR;COUNT=34",
+  "dtStart": "2025-12-14T07:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T07:15:00",
+   "2025-12-26T07:15:00",
+   "2026-01-01T07:15:00",
+   "2026-02-16T07:15:00",
+   "2026-04-03T07:15:00",
+   "2026-05-18T07:15:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (weekly)",
+  "resource": "Toronto Room 118",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU",
+  "dtStart": "2025-09-18T14:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T14:00:00",
+   "2025-12-26T14:00:00",
+   "2026-01-01T14:00:00",
+   "2026-02-16T14:00:00",
+   "2026-04-03T14:00:00",
+   "2026-05-18T14:00:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (every two weeks)",
+  "resource": "Toronto Room 118",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO;COUNT=36",
+  "dtStart": "2025-12-06T10:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T10:15:00",
+   "2025-12-26T10:15:00",
+   "2026-01-01T10:15:00",
+   "2026-02-16T10:15:00",
+   "2026-04-03T10:15:00",
+   "2026-05-18T10:15:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (last weekday review)",
+  "resource": "Toronto Room 118",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-10-05T13:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Orthopaedics (twice weekly)",
+  "resource": "Toronto Room 118",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,FR;UNTIL=20261225T235959Z",
+  "dtStart": "2025-11-30T10:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T10:00:00",
+   "2025-12-26T10:00:00",
+   "2026-01-01T10:00:00",
+   "2026-02-16T10:00:00",
+   "2026-04-03T10:00:00",
+   "2026-05-18T10:00:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "Toronto Room 119",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=1SA",
+  "dtStart": "2026-01-12T08:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Audiology (monthly)",
+  "resource": "Toronto Room 119",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=15",
+  "dtStart": "2025-11-29T14:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Cardiology (weekly)",
+  "resource": "Toronto Room 119",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-11-19T08:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T08:00:00",
+   "2025-12-26T08:00:00",
+   "2026-01-01T08:00:00",
+   "2026-02-16T08:00:00",
+   "2026-04-03T08:00:00",
+   "2026-05-18T08:00:00"
+  ]
+ },
+ {
+  "title": "Dermatology (last weekday review)",
+  "resource": "Toronto Room 119",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-12-13T08:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Physiotherapy (weekday mornings)",
+  "resource": "Toronto Room 119",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20270128T235959Z",
+  "dtStart": "2025-10-11T11:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T11:00:00",
+   "2025-12-26T11:00:00",
+   "2026-01-01T11:00:00",
+   "2026-02-16T11:00:00",
+   "2026-04-03T11:00:00",
+   "2026-05-18T11:00:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (every two weeks)",
+  "resource": "Toronto Room 119",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TU;UNTIL=20270211T235959Z",
+  "dtStart": "2026-01-25T17:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T17:00:00",
+   "2025-12-26T17:00:00",
+   "2026-01-01T17:00:00",
+   "2026-02-16T17:00:00",
+   "2026-04-03T17:00:00",
+   "2026-05-18T17:00:00"
+  ]
+ },
+ {
+  "title": "Dermatology (last weekday review)",
+  "resource": "Toronto Room 119",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-09-13T17:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Wound Care (twice weekly)",
+  "resource": "Toronto Room 119",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,TH",
+  "dtStart": "2025-09-25T11:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T11:00:00",
+   "2025-12-26T11:00:00",
+   "2026-01-01T11:00:00",
+   "2026-02-16T11:00:00",
+   "2026-04-03T11:00:00",
+   "2026-05-18T11:00:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (twice weekly)",
+  "resource": "Toronto Room 119",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,WE,TH",
+  "dtStart": "2025-09-29T09:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T09:15:00",
+   "2025-12-26T09:15:00",
+   "2026-01-01T09:15:00",
+   "2026-02-16T09:15:00",
+   "2026-04-03T09:15:00",
+   "2026-05-18T09:15:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (weekly)",
+  "resource": "Toronto Room 119",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2026-01-20T13:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T13:45:00",
+   "2025-12-26T13:45:00",
+   "2026-01-01T13:45:00",
+   "2026-02-16T13:45:00",
+   "2026-04-03T13:45:00",
+   "2026-05-18T13:45:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "Toronto Room 119",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=2SA",
+  "dtStart": "2025-11-22T06:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 240,
+  "exDates": []
+ },
+ {
+  "title": "Mental Health Group (monthly)",
+  "resource": "Toronto Room 119",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=15",
+  "dtStart": "2025-11-30T15:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Physiotherapy (weekly)",
+  "resource": "Toronto Room 119",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-12-21T08:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T08:45:00",
+   "2025-12-26T08:45:00",
+   "2026-01-01T08:45:00",
+   "2026-02-16T08:45:00",
+   "2026-04-03T08:45:00",
+   "2026-05-18T08:45:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (weekday mornings)",
+  "resource": "Toronto Room 119",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-09-28T17:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T17:00:00",
+   "2025-12-26T17:00:00",
+   "2026-01-01T17:00:00",
+   "2026-02-16T17:00:00",
+   "2026-04-03T17:00:00",
+   "2026-05-18T17:00:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (twice weekly)",
+  "resource": "Toronto Room 119",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE,TH,FR",
+  "dtStart": "2025-09-14T13:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T13:30:00",
+   "2025-12-26T13:30:00",
+   "2026-01-01T13:30:00",
+   "2026-02-16T13:30:00",
+   "2026-04-03T13:30:00",
+   "2026-05-18T13:30:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (weekly)",
+  "resource": "Toronto Room 119",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE;UNTIL=20261016T235959Z",
+  "dtStart": "2025-11-02T10:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T10:00:00",
+   "2025-12-26T10:00:00",
+   "2026-01-01T10:00:00",
+   "2026-02-16T10:00:00",
+   "2026-04-03T10:00:00",
+   "2026-05-18T10:00:00"
+  ]
+ },
+ {
+  "title": "Cardiology (twice weekly)",
+  "resource": "Toronto Room 120",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TH,FR;COUNT=33",
+  "dtStart": "2025-11-26T11:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T11:45:00",
+   "2025-12-26T11:45:00",
+   "2026-01-01T11:45:00",
+   "2026-02-16T11:45:00",
+   "2026-04-03T11:45:00",
+   "2026-05-18T11:45:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (monthly)",
+  "resource": "Toronto Room 120",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=-1",
+  "dtStart": "2026-01-15T13:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Oncology Follow-up (weekly)",
+  "resource": "Toronto Room 120",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO;UNTIL=20270429T235959Z",
+  "dtStart": "2025-12-12T08:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T08:00:00",
+   "2025-12-26T08:00:00",
+   "2026-01-01T08:00:00",
+   "2026-02-16T08:00:00",
+   "2026-04-03T08:00:00",
+   "2026-05-18T08:00:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (weekly)",
+  "resource": "Toronto Room 120",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-12-27T07:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T07:45:00",
+   "2025-12-26T07:45:00",
+   "2026-01-01T07:45:00",
+   "2026-02-16T07:45:00",
+   "2026-04-03T07:45:00",
+   "2026-05-18T07:45:00"
+  ]
+ },
+ {
+  "title": "Physiotherapy (last weekday review)",
+  "resource": "Toronto Room 120",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-11-16T07:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Oncology Follow-up (weekly)",
+  "resource": "Toronto Room 120",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO",
+  "dtStart": "2025-11-22T08:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T08:45:00",
+   "2025-12-26T08:45:00",
+   "2026-01-01T08:45:00",
+   "2026-02-16T08:45:00",
+   "2026-04-03T08:45:00",
+   "2026-05-18T08:45:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "Toronto Room 120",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=2SA",
+  "dtStart": "2025-11-15T07:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Dermatology (every two weeks)",
+  "resource": "Toronto Room 120",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO",
+  "dtStart": "2025-10-03T07:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T07:15:00",
+   "2025-12-26T07:15:00",
+   "2026-01-01T07:15:00",
+   "2026-02-16T07:15:00",
+   "2026-04-03T07:15:00",
+   "2026-05-18T07:15:00"
+  ]
+ },
+ {
+  "title": "Dermatology (monthly)",
+  "resource": "Toronto Room 120",
+  "rrule": "FREQ=MONTHLY;BYDAY=-1TU;COUNT=13",
+  "dtStart": "2025-11-24T14:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Allergy Shots (weekly)",
+  "resource": "Toronto Room 120",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-11-18T11:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T11:00:00",
+   "2025-12-26T11:00:00",
+   "2026-01-01T11:00:00",
+   "2026-02-16T11:00:00",
+   "2026-04-03T11:00:00",
+   "2026-05-18T11:00:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "Toronto Room 120",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=2SA",
+  "dtStart": "2025-12-12T07:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Paediatrics (monthly)",
+  "resource": "Toronto Room 120",
+  "rrule": "FREQ=MONTHLY;BYDAY=1TU",
+  "dtStart": "2026-01-28T08:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Occupational Therapy (monthly)",
+  "resource": "Toronto Room 120",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=-1",
+  "dtStart": "2025-10-26T14:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Mental Health Group (weekly)",
+  "resource": "London Room A",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-11-24T17:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T17:45:00",
+   "2025-12-26T17:45:00",
+   "2026-01-01T17:45:00",
+   "2026-04-03T17:45:00",
+   "2026-04-06T17:45:00",
+   "2026-05-04T17:45:00"
+  ]
+ },
+ {
+  "title": "Dermatology (weekly)",
+  "resource": "London Room A",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR;UNTIL=20270331T235959Z",
+  "dtStart": "2025-10-19T08:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T08:15:00",
+   "2025-12-26T08:15:00",
+   "2026-01-01T08:15:00",
+   "2026-04-03T08:15:00",
+   "2026-04-06T08:15:00",
+   "2026-05-04T08:15:00"
+  ]
+ },
+ {
+  "title": "Dermatology (weekly)",
+  "resource": "London Room A",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-11-19T17:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T17:45:00",
+   "2025-12-26T17:45:00",
+   "2026-01-01T17:45:00",
+   "2026-04-03T17:45:00",
+   "2026-04-06T17:45:00",
+   "2026-05-04T17:45:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (last weekday review)",
+  "resource": "London Room A",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-11-13T16:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": []
+ },
+ {
+  "title": "Diabetes Clinic (weekly)",
+  "resource": "London Room A",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR;UNTIL=20260506T235959Z",
+  "dtStart": "2026-01-28T16:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T16:45:00",
+   "2025-12-26T16:45:00",
+   "2026-01-01T16:45:00",
+   "2026-04-03T16:45:00",
+   "2026-04-06T16:45:00",
+   "2026-05-04T16:45:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (weekly)",
+  "resource": "London Room A",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU",
+  "dtStart": "2025-12-18T08:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T08:15:00",
+   "2025-12-26T08:15:00",
+   "2026-01-01T08:15:00",
+   "2026-04-03T08:15:00",
+   "2026-04-06T08:15:00",
+   "2026-05-04T08:15:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (weekday mornings)",
+  "resource": "London Room A",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-10-31T15:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T15:00:00",
+   "2025-12-26T15:00:00",
+   "2026-01-01T15:00:00",
+   "2026-04-03T15:00:00",
+   "2026-04-06T15:00:00",
+   "2026-05-04T15:00:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (weekly)",
+  "resource": "London Room A",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-11-01T16:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T16:15:00",
+   "2025-12-26T16:15:00",
+   "2026-01-01T16:15:00",
+   "2026-04-03T16:15:00",
+   "2026-04-06T16:15:00",
+   "2026-05-04T16:15:00"
+  ]
+ },
+ {
+  "title": "Mental Health Group (last weekday review)",
+  "resource": "London Room A",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-09-19T15:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Orthopaedics (weekly)",
+  "resource": "London Room A",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-09-04T13:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T13:15:00",
+   "2025-12-26T13:15:00",
+   "2026-01-01T13:15:00",
+   "2026-04-03T13:15:00",
+   "2026-04-06T13:15:00",
+   "2026-05-04T13:15:00"
+  ]
+ },
+ {
+  "title": "Dermatology (twice weekly)",
+  "resource": "London Room A",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE",
+  "dtStart": "2025-10-01T15:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T15:00:00",
+   "2025-12-26T15:00:00",
+   "2026-01-01T15:00:00",
+   "2026-04-03T15:00:00",
+   "2026-04-06T15:00:00",
+   "2026-05-04T15:00:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (weekly)",
+  "resource": "London Room A",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO",
+  "dtStart": "2026-01-22T16:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T16:15:00",
+   "2025-12-26T16:15:00",
+   "2026-01-01T16:15:00",
+   "2026-04-03T16:15:00",
+   "2026-04-06T16:15:00",
+   "2026-05-04T16:15:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (every two weeks)",
+  "resource": "London Room A",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;COUNT=27",
+  "dtStart": "2025-09-28T08:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T08:00:00",
+   "2025-12-26T08:00:00",
+   "2026-01-01T08:00:00",
+   "2026-04-03T08:00:00",
+   "2026-04-06T08:00:00",
+   "2026-05-04T08:00:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (monthly)",
+  "resource": "London Room B",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=-1;COUNT=12",
+  "dtStart": "2025-12-10T09:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Occupational Therapy (every two weeks)",
+  "resource": "London Room B",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO",
+  "dtStart": "2025-11-20T16:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T16:45:00",
+   "2025-12-26T16:45:00",
+   "2026-01-01T16:45:00",
+   "2026-04-03T16:45:00",
+   "2026-04-06T16:45:00",
+   "2026-05-04T16:45:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (every two weeks)",
+  "resource": "London Room B",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TU",
+  "dtStart": "2025-12-14T12:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T12:00:00",
+   "2025-12-26T12:00:00",
+   "2026-01-01T12:00:00",
+   "2026-04-03T12:00:00",
+   "2026-04-06T12:00:00",
+   "2026-05-04T12:00:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (weekly)",
+  "resource": "London Room B",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU;COUNT=33",
+  "dtStart": "2026-01-25T16:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T16:00:00",
+   "2025-12-26T16:00:00",
+   "2026-01-01T16:00:00",
+   "2026-04-03T16:00:00",
+   "2026-04-06T16:00:00",
+   "2026-05-04T16:00:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (twice weekly)",
+  "resource": "London Room B",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH,FR",
+  "dtStart": "2025-12-31T15:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T15:30:00",
+   "2025-12-26T15:30:00",
+   "2026-01-01T15:30:00",
+   "2026-04-03T15:30:00",
+   "2026-04-06T15:30:00",
+   "2026-05-04T15:30:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (twice weekly)",
+  "resource": "London Room B",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TH",
+  "dtStart": "2025-09-27T13:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T13:45:00",
+   "2025-12-26T13:45:00",
+   "2026-01-01T13:45:00",
+   "2026-04-03T13:45:00",
+   "2026-04-06T13:45:00",
+   "2026-05-04T13:45:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (monthly)",
+  "resource": "London Room B",
+  "rrule": "FREQ=MONTHLY;BYDAY=2WE",
+  "dtStart": "2025-12-02T15:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Audiology (weekly)",
+  "resource": "London Room B",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20260807T235959Z",
+  "dtStart": "2025-12-08T12:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T12:00:00",
+   "2025-12-26T12:00:00",
+   "2026-01-01T12:00:00",
+   "2026-04-03T12:00:00",
+   "2026-04-06T12:00:00",
+   "2026-05-04T12:00:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (weekly)",
+  "resource": "London Room B",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20260728T235959Z",
+  "dtStart": "2025-12-02T07:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T07:15:00",
+   "2025-12-26T07:15:00",
+   "2026-01-01T07:15:00",
+   "2026-04-03T07:15:00",
+   "2026-04-06T07:15:00",
+   "2026-05-04T07:15:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (weekly)",
+  "resource": "London Room B",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-11-23T17:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T17:15:00",
+   "2025-12-26T17:15:00",
+   "2026-01-01T17:15:00",
+   "2026-04-03T17:15:00",
+   "2026-04-06T17:15:00",
+   "2026-05-04T17:15:00"
+  ]
+ },
+ {
+  "title": "Dermatology (weekly)",
+  "resource": "London Room B",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU",
+  "dtStart": "2025-12-24T12:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T12:30:00",
+   "2025-12-26T12:30:00",
+   "2026-01-01T12:30:00",
+   "2026-04-03T12:30:00",
+   "2026-04-06T12:30:00",
+   "2026-05-04T12:30:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (every two weeks)",
+  "resource": "London Room B",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH",
+  "dtStart": "2025-09-18T17:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T17:00:00",
+   "2025-12-26T17:00:00",
+   "2026-01-01T17:00:00",
+   "2026-04-03T17:00:00",
+   "2026-04-06T17:00:00",
+   "2026-05-04T17:00:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (weekday mornings)",
+  "resource": "London Room B",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;COUNT=29",
+  "dtStart": "2025-10-29T10:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T10:30:00",
+   "2025-12-26T10:30:00",
+   "2026-01-01T10:30:00",
+   "2026-04-03T10:30:00",
+   "2026-04-06T10:30:00",
+   "2026-05-04T10:30:00"
+  ]
+ },
+ {
+  "title": "Physiotherapy (twice weekly)",
+  "resource": "London Room B",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,FR",
+  "dtStart": "2025-11-28T17:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T17:00:00",
+   "2025-12-26T17:00:00",
+   "2026-01-01T17:00:00",
+   "2026-04-03T17:00:00",
+   "2026-04-06T17:00:00",
+   "2026-05-04T17:00:00"
+  ]
+ },
+ {
+  "title": "Dermatology (twice weekly)",
+  "resource": "London Room C",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,FR;COUNT=33",
+  "dtStart": "2025-11-26T09:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T09:15:00",
+   "2025-12-26T09:15:00",
+   "2026-01-01T09:15:00",
+   "2026-04-03T09:15:00",
+   "2026-04-06T09:15:00",
+   "2026-05-04T09:15:00"
+  ]
+ },
+ {
+  "title": "Physiotherapy (every two weeks)",
+  "resource": "London Room C",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO;UNTIL=20260514T235959Z",
+  "dtStart": "2025-11-13T15:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T15:00:00",
+   "2025-12-26T15:00:00",
+   "2026-01-01T15:00:00",
+   "2026-04-03T15:00:00",
+   "2026-04-06T15:00:00",
+   "2026-05-04T15:00:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (monthly)",
+  "resource": "London Room C",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+  "dtStart": "2025-11-01T12:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Physiotherapy (weekly)",
+  "resource": "London Room C",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-11-11T15:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T15:45:00",
+   "2025-12-26T15:45:00",
+   "2026-01-01T15:45:00",
+   "2026-04-03T15:45:00",
+   "2026-04-06T15:45:00",
+   "2026-05-04T15:45:00"
+  ]
+ },
+ {
+  "title": "Dermatology (twice weekly)",
+  "resource": "London Room C",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,TH,FR;COUNT=6",
+  "dtStart": "2025-10-26T14:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T14:30:00",
+   "2025-12-26T14:30:00",
+   "2026-01-01T14:30:00",
+   "2026-04-03T14:30:00",
+   "2026-04-06T14:30:00",
+   "2026-05-04T14:30:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (monthly)",
+  "resource": "London Room C",
+  "rrule": "FREQ=MONTHLY;BYDAY=3TU",
+  "dtStart": "2025-12-29T17:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Dermatology (monthly)",
+  "resource": "London Room C",
+  "rrule": "FREQ=MONTHLY;BYDAY=-1WE;COUNT=35",
+  "dtStart": "2025-12-19T16:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Diabetes Clinic (weekly)",
+  "resource": "London Room C",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-11-01T16:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T16:15:00",
+   "2025-12-26T16:15:00",
+   "2026-01-01T16:15:00",
+   "2026-04-03T16:15:00",
+   "2026-04-06T16:15:00",
+   "2026-05-04T16:15:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (twice weekly)",
+  "resource": "London Room C",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE",
+  "dtStart": "2025-10-10T16:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T16:15:00",
+   "2025-12-26T16:15:00",
+   "2026-01-01T16:15:00",
+   "2026-04-03T16:15:00",
+   "2026-04-06T16:15:00",
+   "2026-05-04T16:15:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (twice weekly)",
+  "resource": "London Room C",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,TH,FR;UNTIL=20260721T235959Z",
+  "dtStart": "2026-01-20T08:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T08:00:00",
+   "2025-12-26T08:00:00",
+   "2026-01-01T08:00:00",
+   "2026-04-03T08:00:00",
+   "2026-04-06T08:00:00",
+   "2026-05-04T08:00:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (weekly)",
+  "resource": "London Room C",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20270210T235959Z",
+  "dtStart": "2025-11-25T12:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T12:30:00",
+   "2025-12-26T12:30:00",
+   "2026-01-01T12:30:00",
+   "2026-04-03T12:30:00",
+   "2026-04-06T12:30:00",
+   "2026-05-04T12:30:00"
+  ]
+ },
+ {
+  "title": "Cardiology (monthly)",
+  "resource": "London Room C",
+  "rrule": "FREQ=MONTHLY;BYDAY=3TH",
+  "dtStart": "2026-01-22T13:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Physiotherapy (monthly)",
+  "resource": "London Room C",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=-1",
+  "dtStart": "2025-09-24T11:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Wound Care (twice weekly)",
+  "resource": "London Room C",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE,TH;COUNT=24",
+  "dtStart": "2025-09-08T10:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T10:45:00",
+   "2025-12-26T10:45:00",
+   "2026-01-01T10:45:00",
+   "2026-04-03T10:45:00",
+   "2026-04-06T10:45:00",
+   "2026-05-04T10:45:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (every two weeks)",
+  "resource": "London Room C",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;COUNT=17",
+  "dtStart": "2025-10-30T15:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T15:45:00",
+   "2025-12-26T15:45:00",
+   "2026-01-01T15:45:00",
+   "2026-04-03T15:45:00",
+   "2026-04-06T15:45:00",
+   "2026-05-04T15:45:00"
+  ]
+ },
+ {
+  "title": "Wound Care (weekly)",
+  "resource": "London Room C",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2026-01-13T17:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T17:45:00",
+   "2025-12-26T17:45:00",
+   "2026-01-01T17:45:00",
+   "2026-04-03T17:45:00",
+   "2026-04-06T17:45:00",
+   "2026-05-04T17:45:00"
+  ]
+ },
+ {
+  "title": "Nutrition Counselling (last weekday review)",
+  "resource": "London Room D",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1;UNTIL=20260530T235959Z",
+  "dtStart": "2025-10-30T08:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": []
+ },
+ {
+  "title": "Oncology Follow-up (monthly)",
+  "resource": "London Room D",
+  "rrule": "FREQ=MONTHLY;BYDAY=2WE",
+  "dtStart": "2025-12-28T16:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Wound Care (monthly)",
+  "resource": "London Room D",
+  "rrule": "FREQ=MONTHLY;BYDAY=-1TU",
+  "dtStart": "2025-11-09T13:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Audiology (weekly)",
+  "resource": "London Room D",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2026-01-27T13:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T13:45:00",
+   "2025-12-26T13:45:00",
+   "2026-01-01T13:45:00",
+   "2026-04-03T13:45:00",
+   "2026-04-06T13:45:00",
+   "2026-05-04T13:45:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (twice weekly)",
+  "resource": "London Room D",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,TH,FR",
+  "dtStart": "2026-01-17T14:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T14:45:00",
+   "2025-12-26T14:45:00",
+   "2026-01-01T14:45:00",
+   "2026-04-03T14:45:00",
+   "2026-04-06T14:45:00",
+   "2026-05-04T14:45:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (every two weeks)",
+  "resource": "London Room D",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=FR",
+  "dtStart": "2025-10-01T09:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T09:30:00",
+   "2025-12-26T09:30:00",
+   "2026-01-01T09:30:00",
+   "2026-04-03T09:30:00",
+   "2026-04-06T09:30:00",
+   "2026-05-04T09:30:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (weekly)",
+  "resource": "London Room D",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO",
+  "dtStart": "2025-11-13T13:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T13:30:00",
+   "2025-12-26T13:30:00",
+   "2026-01-01T13:30:00",
+   "2026-04-03T13:30:00",
+   "2026-04-06T13:30:00",
+   "2026-05-04T13:30:00"
+  ]
+ },
+ {
+  "title": "Physiotherapy (weekly)",
+  "resource": "London Room D",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU;COUNT=9",
+  "dtStart": "2025-11-10T16:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T16:30:00",
+   "2025-12-26T16:30:00",
+   "2026-01-01T16:30:00",
+   "2026-04-03T16:30:00",
+   "2026-04-06T16:30:00",
+   "2026-05-04T16:30:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (monthly)",
+  "resource": "London Room D",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=10",
+  "dtStart": "2026-01-02T08:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Allergy Shots (weekly)",
+  "resource": "London Room D",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-10-22T12:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T12:45:00",
+   "2025-12-26T12:45:00",
+   "2026-01-01T12:45:00",
+   "2026-04-03T12:45:00",
+   "2026-04-06T12:45:00",
+   "2026-05-04T12:45:00"
+  ]
+ },
+ {
+  "title": "Dermatology (weekday mornings)",
+  "resource": "London Room D",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-12-04T08:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T08:30:00",
+   "2025-12-26T08:30:00",
+   "2026-01-01T08:30:00",
+   "2026-04-03T08:30:00",
+   "2026-04-06T08:30:00",
+   "2026-05-04T08:30:00"
+  ]
+ },
+ {
+  "title": "Wound Care (twice weekly)",
+  "resource": "London Room D",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TH,FR",
+  "dtStart": "2025-09-17T16:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T16:00:00",
+   "2025-12-26T16:00:00",
+   "2026-01-01T16:00:00",
+   "2026-04-03T16:00:00",
+   "2026-04-06T16:00:00",
+   "2026-05-04T16:00:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (monthly)",
+  "resource": "London Room D",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=15",
+  "dtStart": "2025-12-05T08:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Speech Therapy (weekly)",
+  "resource": "London Room E",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH;COUNT=34",
+  "dtStart": "2025-10-15T13:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T13:30:00",
+   "2025-12-26T13:30:00",
+   "2026-01-01T13:30:00",
+   "2026-04-03T13:30:00",
+   "2026-04-06T13:30:00",
+   "2026-05-04T13:30:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (weekly)",
+  "resource": "London Room E",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-10-28T12:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T12:45:00",
+   "2025-12-26T12:45:00",
+   "2026-01-01T12:45:00",
+   "2026-04-03T12:45:00",
+   "2026-04-06T12:45:00",
+   "2026-05-04T12:45:00"
+  ]
+ },
+ {
+  "title": "Mental Health Group (weekly)",
+  "resource": "London Room E",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-12-24T12:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T12:45:00",
+   "2025-12-26T12:45:00",
+   "2026-01-01T12:45:00",
+   "2026-04-03T12:45:00",
+   "2026-04-06T12:45:00",
+   "2026-05-04T12:45:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "London Room E",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=1SA;UNTIL=20260611T235959Z",
+  "dtStart": "2025-11-24T07:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Diabetes Clinic (weekly)",
+  "resource": "London Room E",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-12-31T12:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T12:00:00",
+   "2025-12-26T12:00:00",
+   "2026-01-01T12:00:00",
+   "2026-04-03T12:00:00",
+   "2026-04-06T12:00:00",
+   "2026-05-04T12:00:00"
+  ]
+ },
+ {
+  "title": "Mental Health Group (monthly)",
+  "resource": "London Room E",
+  "rrule": "FREQ=MONTHLY;BYDAY=1WE",
+  "dtStart": "2025-09-17T12:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Diabetes Clinic (twice weekly)",
+  "resource": "London Room E",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE",
+  "dtStart": "2025-12-01T08:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T08:45:00",
+   "2025-12-26T08:45:00",
+   "2026-01-01T08:45:00",
+   "2026-04-03T08:45:00",
+   "2026-04-06T08:45:00",
+   "2026-05-04T08:45:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (last weekday review)",
+  "resource": "London Room E",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1;UNTIL=20261111T235959Z",
+  "dtStart": "2025-11-24T12:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Dermatology (monthly)",
+  "resource": "London Room E",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=15",
+  "dtStart": "2026-01-02T11:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Nutrition Counselling (monthly)",
+  "resource": "London Room E",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+  "dtStart": "2026-01-01T15:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Diabetes Clinic (monthly)",
+  "resource": "London Room E",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=-1;COUNT=9",
+  "dtStart": "2026-01-04T14:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Audiology (every two weeks)",
+  "resource": "London Room E",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=FR",
+  "dtStart": "2025-09-03T09:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T09:30:00",
+   "2025-12-26T09:30:00",
+   "2026-01-01T09:30:00",
+   "2026-04-03T09:30:00",
+   "2026-04-06T09:30:00",
+   "2026-05-04T09:30:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (monthly)",
+  "resource": "London Room F",
+  "rrule": "FREQ=MONTHLY;BYDAY=3WE",
+  "dtStart": "2025-09-03T15:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Paediatrics (monthly)",
+  "resource": "London Room F",
+  "rrule": "FREQ=MONTHLY;BYDAY=-1FR",
+  "dtStart": "2025-09-28T13:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Diabetes Clinic (weekday mornings)",
+  "resource": "London Room F",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;COUNT=34",
+  "dtStart": "2025-09-15T12:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T12:30:00",
+   "2025-12-26T12:30:00",
+   "2026-01-01T12:30:00",
+   "2026-04-03T12:30:00",
+   "2026-04-06T12:30:00",
+   "2026-05-04T12:30:00"
+  ]
+ },
+ {
+  "title": "Mental Health Group (twice weekly)",
+  "resource": "London Room F",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU;COUNT=23",
+  "dtStart": "2025-11-20T12:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T12:30:00",
+   "2025-12-26T12:30:00",
+   "2026-01-01T12:30:00",
+   "2026-04-03T12:30:00",
+   "2026-04-06T12:30:00",
+   "2026-05-04T12:30:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (twice weekly)",
+  "resource": "London Room F",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,TH,FR;COUNT=26",
+  "dtStart": "2025-11-05T15:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T15:45:00",
+   "2025-12-26T15:45:00",
+   "2026-01-01T15:45:00",
+   "2026-04-03T15:45:00",
+   "2026-04-06T15:45:00",
+   "2026-05-04T15:45:00"
+  ]
+ },
+ {
+  "title": "Wound Care (weekly)",
+  "resource": "London Room F",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2026-01-24T10:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T10:15:00",
+   "2025-12-26T10:15:00",
+   "2026-01-01T10:15:00",
+   "2026-04-03T10:15:00",
+   "2026-04-06T10:15:00",
+   "2026-05-04T10:15:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (monthly)",
+  "resource": "London Room F",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=-1;UNTIL=20260905T235959Z",
+  "dtStart": "2026-01-25T14:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Physiotherapy (twice weekly)",
+  "resource": "London Room F",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE,TH,FR;COUNT=24",
+  "dtStart": "2025-09-12T16:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T16:30:00",
+   "2025-12-26T16:30:00",
+   "2026-01-01T16:30:00",
+   "2026-04-03T16:30:00",
+   "2026-04-06T16:30:00",
+   "2026-05-04T16:30:00"
+  ]
+ },
+ {
+  "title": "Audiology (weekly)",
+  "resource": "London Room F",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-10-22T12:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T12:15:00",
+   "2025-12-26T12:15:00",
+   "2026-01-01T12:15:00",
+   "2026-04-03T12:15:00",
+   "2026-04-06T12:15:00",
+   "2026-05-04T12:15:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (weekly)",
+  "resource": "London Room F",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR;UNTIL=20261227T235959Z",
+  "dtStart": "2025-10-03T14:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T14:30:00",
+   "2025-12-26T14:30:00",
+   "2026-01-01T14:30:00",
+   "2026-04-03T14:30:00",
+   "2026-04-06T14:30:00",
+   "2026-05-04T14:30:00"
+  ]
+ },
+ {
+  "title": "Dermatology (monthly)",
+  "resource": "London Room F",
+  "rrule": "FREQ=MONTHLY;BYDAY=-1WE;COUNT=17",
+  "dtStart": "2025-09-23T11:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Mental Health Group (weekly)",
+  "resource": "London Room F",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-11-26T17:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T17:15:00",
+   "2025-12-26T17:15:00",
+   "2026-01-01T17:15:00",
+   "2026-04-03T17:15:00",
+   "2026-04-06T17:15:00",
+   "2026-05-04T17:15:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (last weekday review)",
+  "resource": "London Room F",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-12-22T08:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Allergy Shots (twice weekly)",
+  "resource": "London Room G",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TH,FR",
+  "dtStart": "2025-12-17T13:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T13:45:00",
+   "2025-12-26T13:45:00",
+   "2026-01-01T13:45:00",
+   "2026-04-03T13:45:00",
+   "2026-04-06T13:45:00",
+   "2026-05-04T13:45:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (twice weekly)",
+  "resource": "London Room G",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH,FR",
+  "dtStart": "2025-11-08T13:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T13:45:00",
+   "2025-12-26T13:45:00",
+   "2026-01-01T13:45:00",
+   "2026-04-03T13:45:00",
+   "2026-04-06T13:45:00",
+   "2026-05-04T13:45:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (weekly)",
+  "resource": "London Room G",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU",
+  "dtStart": "2025-12-26T12:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T12:00:00",
+   "2025-12-26T12:00:00",
+   "2026-01-01T12:00:00",
+   "2026-04-03T12:00:00",
+   "2026-04-06T12:00:00",
+   "2026-05-04T12:00:00"
+  ]
+ },
+ {
+  "title": "Dermatology (twice weekly)",
+  "resource": "London Room G",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,TH;COUNT=39",
+  "dtStart": "2025-12-04T10:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T10:00:00",
+   "2025-12-26T10:00:00",
+   "2026-01-01T10:00:00",
+   "2026-04-03T10:00:00",
+   "2026-04-06T10:00:00",
+   "2026-05-04T10:00:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (every two weeks)",
+  "resource": "London Room G",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TU",
+  "dtStart": "2025-11-15T11:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T11:30:00",
+   "2025-12-26T11:30:00",
+   "2026-01-01T11:30:00",
+   "2026-04-03T11:30:00",
+   "2026-04-06T11:30:00",
+   "2026-05-04T11:30:00"
+  ]
+ },
+ {
+  "title": "Mental Health Group (weekly)",
+  "resource": "London Room G",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE;UNTIL=20260515T235959Z",
+  "dtStart": "2025-10-23T12:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T12:15:00",
+   "2025-12-26T12:15:00",
+   "2026-01-01T12:15:00",
+   "2026-04-03T12:15:00",
+   "2026-04-06T12:15:00",
+   "2026-05-04T12:15:00"
+  ]
+ },
+ {
+  "title": "Dermatology (monthly)",
+  "resource": "London Room G",
+  "rrule": "FREQ=MONTHLY;BYDAY=1MO",
+  "dtStart": "2026-01-19T13:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Sleep Study Review (every two weeks)",
+  "resource": "London Room G",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=WE",
+  "dtStart": "2025-12-05T08:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T08:00:00",
+   "2025-12-26T08:00:00",
+   "2026-01-01T08:00:00",
+   "2026-04-03T08:00:00",
+   "2026-04-06T08:00:00",
+   "2026-05-04T08:00:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (twice weekly)",
+  "resource": "London Room G",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,WE",
+  "dtStart": "2025-11-18T13:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T13:00:00",
+   "2025-12-26T13:00:00",
+   "2026-01-01T13:00:00",
+   "2026-04-03T13:00:00",
+   "2026-04-06T13:00:00",
+   "2026-05-04T13:00:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (twice weekly)",
+  "resource": "London Room G",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,FR;UNTIL=20260630T235959Z",
+  "dtStart": "2026-01-07T16:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T16:30:00",
+   "2025-12-26T16:30:00",
+   "2026-01-01T16:30:00",
+   "2026-04-03T16:30:00",
+   "2026-04-06T16:30:00",
+   "2026-05-04T16:30:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (monthly)",
+  "resource": "London Room G",
+  "rrule": "FREQ=MONTHLY;BYDAY=1TU",
+  "dtStart": "2025-10-31T14:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Dermatology (monthly)",
+  "resource": "London Room G",
+  "rrule": "FREQ=MONTHLY;BYDAY=3TH",
+  "dtStart": "2025-10-27T14:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Oncology Follow-up (weekly)",
+  "resource": "London Room G",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2026-01-26T08:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T08:45:00",
+   "2025-12-26T08:45:00",
+   "2026-01-01T08:45:00",
+   "2026-04-03T08:45:00",
+   "2026-04-06T08:45:00",
+   "2026-05-04T08:45:00"
+  ]
+ },
+ {
+  "title": "Wound Care (twice weekly)",
+  "resource": "London Room G",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TH,FR",
+  "dtStart": "2025-10-03T13:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T13:45:00",
+   "2025-12-26T13:45:00",
+   "2026-01-01T13:45:00",
+   "2026-04-03T13:45:00",
+   "2026-04-06T13:45:00",
+   "2026-05-04T13:45:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (every two weeks)",
+  "resource": "London Room H",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO",
+  "dtStart": "2026-01-23T13:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T13:00:00",
+   "2025-12-26T13:00:00",
+   "2026-01-01T13:00:00",
+   "2026-04-03T13:00:00",
+   "2026-04-06T13:00:00",
+   "2026-05-04T13:00:00"
+  ]
+ },
+ {
+  "title": "Dermatology (twice weekly)",
+  "resource": "London Room H",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TH",
+  "dtStart": "2025-09-10T07:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T07:15:00",
+   "2025-12-26T07:15:00",
+   "2026-01-01T07:15:00",
+   "2026-04-03T07:15:00",
+   "2026-04-06T07:15:00",
+   "2026-05-04T07:15:00"
+  ]
+ },
+ {
+  "title": "Cardiology (every two weeks)",
+  "resource": "London Room H",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO",
+  "dtStart": "2026-01-27T09:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T09:00:00",
+   "2025-12-26T09:00:00",
+   "2026-01-01T09:00:00",
+   "2026-04-03T09:00:00",
+   "2026-04-06T09:00:00",
+   "2026-05-04T09:00:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (monthly)",
+  "resource": "London Room H",
+  "rrule": "FREQ=MONTHLY;BYDAY=2TH;UNTIL=20260715T235959Z",
+  "dtStart": "2025-12-13T12:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Allergy Shots (monthly)",
+  "resource": "London Room H",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=-1",
+  "dtStart": "2025-11-18T08:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Allergy Shots (monthly)",
+  "resource": "London Room H",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=15",
+  "dtStart": "2025-09-28T07:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "London Room H",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=2SA;UNTIL=20260915T235959Z",
+  "dtStart": "2025-10-30T07:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 240,
+  "exDates": []
+ },
+ {
+  "title": "Sleep Study Review (monthly)",
+  "resource": "London Room H",
+  "rrule": "FREQ=MONTHLY;BYDAY=3MO;COUNT=21",
+  "dtStart": "2025-12-14T11:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Diabetes Clinic (monthly)",
+  "resource": "London Room H",
+  "rrule": "FREQ=MONTHLY;BYDAY=-1MO",
+  "dtStart": "2025-09-17T10:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Physiotherapy (weekly)",
+  "resource": "London Room H",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-11-09T11:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T11:30:00",
+   "2025-12-26T11:30:00",
+   "2026-01-01T11:30:00",
+   "2026-04-03T11:30:00",
+   "2026-04-06T11:30:00",
+   "2026-05-04T11:30:00"
+  ]
+ },
+ {
+  "title": "Wound Care (weekday mornings)",
+  "resource": "London Room H",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2026-01-18T12:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T12:00:00",
+   "2025-12-26T12:00:00",
+   "2026-01-01T12:00:00",
+   "2026-04-03T12:00:00",
+   "2026-04-06T12:00:00",
+   "2026-05-04T12:00:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (weekly)",
+  "resource": "London Room H",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH;UNTIL=20260419T235959Z",
+  "dtStart": "2025-09-28T15:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T15:15:00",
+   "2025-12-26T15:15:00",
+   "2026-01-01T15:15:00",
+   "2026-04-03T15:15:00",
+   "2026-04-06T15:15:00",
+   "2026-05-04T15:15:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (weekday mornings)",
+  "resource": "London Room H",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-10-07T17:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T17:45:00",
+   "2025-12-26T17:45:00",
+   "2026-01-01T17:45:00",
+   "2026-04-03T17:45:00",
+   "2026-04-06T17:45:00",
+   "2026-05-04T17:45:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "London Room H",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=1SA",
+  "dtStart": "2025-11-10T07:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Physiotherapy (twice weekly)",
+  "resource": "London Room H",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE",
+  "dtStart": "2025-10-06T07:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T07:45:00",
+   "2025-12-26T07:45:00",
+   "2026-01-01T07:45:00",
+   "2026-04-03T07:45:00",
+   "2026-04-06T07:45:00",
+   "2026-05-04T07:45:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (every two weeks)",
+  "resource": "London Room I",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=FR",
+  "dtStart": "2025-09-08T10:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T10:15:00",
+   "2025-12-26T10:15:00",
+   "2026-01-01T10:15:00",
+   "2026-04-03T10:15:00",
+   "2026-04-06T10:15:00",
+   "2026-05-04T10:15:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (monthly)",
+  "resource": "London Room I",
+  "rrule": "FREQ=MONTHLY;BYDAY=2TH",
+  "dtStart": "2025-09-14T14:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Paediatrics (weekly)",
+  "resource": "London Room I",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO;COUNT=20",
+  "dtStart": "2025-11-11T12:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T12:15:00",
+   "2025-12-26T12:15:00",
+   "2026-01-01T12:15:00",
+   "2026-04-03T12:15:00",
+   "2026-04-06T12:15:00",
+   "2026-05-04T12:15:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (monthly)",
+  "resource": "London Room I",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=10;UNTIL=20261206T235959Z",
+  "dtStart": "2025-10-14T13:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Physiotherapy (every two weeks)",
+  "resource": "London Room I",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO",
+  "dtStart": "2026-01-09T12:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T12:00:00",
+   "2025-12-26T12:00:00",
+   "2026-01-01T12:00:00",
+   "2026-04-03T12:00:00",
+   "2026-04-06T12:00:00",
+   "2026-05-04T12:00:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (last weekday review)",
+  "resource": "London Room I",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2026-01-03T14:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": []
+ },
+ {
+  "title": "Orthopaedics (monthly)",
+  "resource": "London Room I",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=15",
+  "dtStart": "2026-01-05T16:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Diabetes Clinic (every two weeks)",
+  "resource": "London Room I",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TU;COUNT=11",
+  "dtStart": "2025-09-30T16:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T16:30:00",
+   "2025-12-26T16:30:00",
+   "2026-01-01T16:30:00",
+   "2026-04-03T16:30:00",
+   "2026-04-06T16:30:00",
+   "2026-05-04T16:30:00"
+  ]
+ },
+ {
+  "title": "Dermatology (monthly)",
+  "resource": "London Room I",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=15;UNTIL=20261108T235959Z",
+  "dtStart": "2025-10-04T09:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Prenatal Care (twice weekly)",
+  "resource": "London Room I",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE",
+  "dtStart": "2025-12-31T16:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T16:45:00",
+   "2025-12-26T16:45:00",
+   "2026-01-01T16:45:00",
+   "2026-04-03T16:45:00",
+   "2026-04-06T16:45:00",
+   "2026-05-04T16:45:00"
+  ]
+ },
+ {
+  "title": "Wound Care (every two weeks)",
+  "resource": "London Room I",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO;COUNT=14",
+  "dtStart": "2025-12-04T10:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T10:45:00",
+   "2025-12-26T10:45:00",
+   "2026-01-01T10:45:00",
+   "2026-04-03T10:45:00",
+   "2026-04-06T10:45:00",
+   "2026-05-04T10:45:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (twice weekly)",
+  "resource": "London Room I",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE,TH",
+  "dtStart": "2025-11-22T12:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T12:00:00",
+   "2025-12-26T12:00:00",
+   "2026-01-01T12:00:00",
+   "2026-04-03T12:00:00",
+   "2026-04-06T12:00:00",
+   "2026-05-04T12:00:00"
+  ]
+ },
+ {
+  "title": "Mental Health Group (twice weekly)",
+  "resource": "London Room I",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,WE,FR",
+  "dtStart": "2026-01-07T14:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T14:45:00",
+   "2025-12-26T14:45:00",
+   "2026-01-01T14:45:00",
+   "2026-04-03T14:45:00",
+   "2026-04-06T14:45:00",
+   "2026-05-04T14:45:00"
+  ]
+ },
+ {
+  "title": "Audiology (weekly)",
+  "resource": "London Room I",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-10-01T08:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T08:15:00",
+   "2025-12-26T08:15:00",
+   "2026-01-01T08:15:00",
+   "2026-04-03T08:15:00",
+   "2026-04-06T08:15:00",
+   "2026-05-04T08:15:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (twice weekly)",
+  "resource": "London Room I",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TH;COUNT=8",
+  "dtStart": "2025-11-13T15:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T15:00:00",
+   "2025-12-26T15:00:00",
+   "2026-01-01T15:00:00",
+   "2026-04-03T15:00:00",
+   "2026-04-06T15:00:00",
+   "2026-05-04T15:00:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (weekly)",
+  "resource": "London Room I",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU;COUNT=13",
+  "dtStart": "2025-11-26T09:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T09:30:00",
+   "2025-12-26T09:30:00",
+   "2026-01-01T09:30:00",
+   "2026-04-03T09:30:00",
+   "2026-04-06T09:30:00",
+   "2026-05-04T09:30:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (weekly)",
+  "resource": "London Room J",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH;UNTIL=20260623T235959Z",
+  "dtStart": "2025-10-31T13:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T13:00:00",
+   "2025-12-26T13:00:00",
+   "2026-01-01T13:00:00",
+   "2026-04-03T13:00:00",
+   "2026-04-06T13:00:00",
+   "2026-05-04T13:00:00"
+  ]
+ },
+ {
+  "title": "Cardiology (monthly)",
+  "resource": "London Room J",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=-1;UNTIL=20270115T235959Z",
+  "dtStart": "2025-10-24T12:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Allergy Shots (last weekday review)",
+  "resource": "London Room J",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-09-07T07:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Speech Therapy (twice weekly)",
+  "resource": "London Room J",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,WE,TH;COUNT=30",
+  "dtStart": "2025-11-22T12:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T12:00:00",
+   "2025-12-26T12:00:00",
+   "2026-01-01T12:00:00",
+   "2026-04-03T12:00:00",
+   "2026-04-06T12:00:00",
+   "2026-05-04T12:00:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (weekday mornings)",
+  "resource": "London Room J",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-12-11T10:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T10:00:00",
+   "2025-12-26T10:00:00",
+   "2026-01-01T10:00:00",
+   "2026-04-03T10:00:00",
+   "2026-04-06T10:00:00",
+   "2026-05-04T10:00:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (weekly)",
+  "resource": "London Room J",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR;UNTIL=20261026T235959Z",
+  "dtStart": "2025-12-27T15:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T15:00:00",
+   "2025-12-26T15:00:00",
+   "2026-01-01T15:00:00",
+   "2026-04-03T15:00:00",
+   "2026-04-06T15:00:00",
+   "2026-05-04T15:00:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (every two weeks)",
+  "resource": "London Room J",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO",
+  "dtStart": "2026-01-06T13:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T13:30:00",
+   "2025-12-26T13:30:00",
+   "2026-01-01T13:30:00",
+   "2026-04-03T13:30:00",
+   "2026-04-06T13:30:00",
+   "2026-05-04T13:30:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (weekly)",
+  "resource": "London Room J",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR;COUNT=12",
+  "dtStart": "2025-09-22T17:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T17:30:00",
+   "2025-12-26T17:30:00",
+   "2026-01-01T17:30:00",
+   "2026-04-03T17:30:00",
+   "2026-04-06T17:30:00",
+   "2026-05-04T17:30:00"
+  ]
+ },
+ {
+  "title": "Cardiology (monthly)",
+  "resource": "London Room J",
+  "rrule": "FREQ=MONTHLY;BYDAY=1MO;UNTIL=20260424T235959Z",
+  "dtStart": "2025-09-29T11:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "London Room J",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=2SA",
+  "dtStart": "2025-09-20T06:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Sleep Study Review (twice weekly)",
+  "resource": "London Room J",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,WE,FR",
+  "dtStart": "2025-12-29T07:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T07:15:00",
+   "2025-12-26T07:15:00",
+   "2026-01-01T07:15:00",
+   "2026-04-03T07:15:00",
+   "2026-04-06T07:15:00",
+   "2026-05-04T07:15:00"
+  ]
+ },
+ {
+  "title": "Physiotherapy (twice weekly)",
+  "resource": "London Room J",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,WE,TH;COUNT=30",
+  "dtStart": "2025-11-18T17:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T17:30:00",
+   "2025-12-26T17:30:00",
+   "2026-01-01T17:30:00",
+   "2026-04-03T17:30:00",
+   "2026-04-06T17:30:00",
+   "2026-05-04T17:30:00"
+  ]
+ },
+ {
+  "title": "Cardiology (monthly)",
+  "resource": "London Room J",
+  "rrule": "FREQ=MONTHLY;BYDAY=-1FR",
+  "dtStart": "2026-01-13T16:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Mental Health Group (last weekday review)",
+  "resource": "London Room J",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1;UNTIL=20270301T235959Z",
+  "dtStart": "2026-01-15T07:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Wound Care (twice weekly)",
+  "resource": "London Room K",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU",
+  "dtStart": "2025-12-04T10:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T10:30:00",
+   "2025-12-26T10:30:00",
+   "2026-01-01T10:30:00",
+   "2026-04-03T10:30:00",
+   "2026-04-06T10:30:00",
+   "2026-05-04T10:30:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (twice weekly)",
+  "resource": "London Room K",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,FR",
+  "dtStart": "2025-12-16T07:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T07:30:00",
+   "2025-12-26T07:30:00",
+   "2026-01-01T07:30:00",
+   "2026-04-03T07:30:00",
+   "2026-04-06T07:30:00",
+   "2026-05-04T07:30:00"
+  ]
+ },
+ {
+  "title": "Nutrition Counselling (every two weeks)",
+  "resource": "London Room K",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=FR;UNTIL=20260206T235959Z",
+  "dtStart": "2025-09-17T10:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T10:45:00",
+   "2025-12-26T10:45:00",
+   "2026-01-01T10:45:00",
+   "2026-04-03T10:45:00",
+   "2026-04-06T10:45:00",
+   "2026-05-04T10:45:00"
+  ]
+ },
+ {
+  "title": "Nutrition Counselling (weekly)",
+  "resource": "London Room K",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-10-14T16:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T16:30:00",
+   "2025-12-26T16:30:00",
+   "2026-01-01T16:30:00",
+   "2026-04-03T16:30:00",
+   "2026-04-06T16:30:00",
+   "2026-05-04T16:30:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (twice weekly)",
+  "resource": "London Room K",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH,FR",
+  "dtStart": "2025-12-11T12:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T12:30:00",
+   "2025-12-26T12:30:00",
+   "2026-01-01T12:30:00",
+   "2026-04-03T12:30:00",
+   "2026-04-06T12:30:00",
+   "2026-05-04T12:30:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (every two weeks)",
+  "resource": "London Room K",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=FR",
+  "dtStart": "2025-09-19T07:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T07:15:00",
+   "2025-12-26T07:15:00",
+   "2026-01-01T07:15:00",
+   "2026-04-03T07:15:00",
+   "2026-04-06T07:15:00",
+   "2026-05-04T07:15:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (weekly)",
+  "resource": "London Room K",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU",
+  "dtStart": "2026-01-24T09:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T09:00:00",
+   "2025-12-26T09:00:00",
+   "2026-01-01T09:00:00",
+   "2026-04-03T09:00:00",
+   "2026-04-06T09:00:00",
+   "2026-05-04T09:00:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (twice weekly)",
+  "resource": "London Room K",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,TH;COUNT=15",
+  "dtStart": "2026-01-18T15:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T15:15:00",
+   "2025-12-26T15:15:00",
+   "2026-01-01T15:15:00",
+   "2026-04-03T15:15:00",
+   "2026-04-06T15:15:00",
+   "2026-05-04T15:15:00"
+  ]
+ },
+ {
+  "title": "Dermatology (last weekday review)",
+  "resource": "London Room K",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-09-02T08:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": []
+ },
+ {
+  "title": "Prenatal Care (weekly)",
+  "resource": "London Room K",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO",
+  "dtStart": "2025-09-15T14:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T14:45:00",
+   "2025-12-26T14:45:00",
+   "2026-01-01T14:45:00",
+   "2026-04-03T14:45:00",
+   "2026-04-06T14:45:00",
+   "2026-05-04T14:45:00"
+  ]
+ },
+ {
+  "title": "Dermatology (weekly)",
+  "resource": "London Room K",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-09-16T08:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T08:30:00",
+   "2025-12-26T08:30:00",
+   "2026-01-01T08:30:00",
+   "2026-04-03T08:30:00",
+   "2026-04-06T08:30:00",
+   "2026-05-04T08:30:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (monthly)",
+  "resource": "London Room K",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=15",
+  "dtStart": "2026-01-21T17:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Cardiology (monthly)",
+  "resource": "London Room K",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=15",
+  "dtStart": "2025-11-02T12:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Mental Health Group (weekly)",
+  "resource": "London Room L",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-11-07T13:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T13:15:00",
+   "2025-12-26T13:15:00",
+   "2026-01-01T13:15:00",
+   "2026-04-03T13:15:00",
+   "2026-04-06T13:15:00",
+   "2026-05-04T13:15:00"
+  ]
+ },
+ {
+  "title": "Wound Care (monthly)",
+  "resource": "London Room L",
+  "rrule": "FREQ=MONTHLY;BYDAY=3TH",
+  "dtStart": "2025-10-30T10:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Cardiology (monthly)",
+  "resource": "London Room L",
+  "rrule": "FREQ=MONTHLY;BYDAY=3MO",
+  "dtStart": "2025-12-28T08:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Nutrition Counselling (weekly)",
+  "resource": "London Room L",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR;UNTIL=20270315T235959Z",
+  "dtStart": "2025-11-15T11:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T11:00:00",
+   "2025-12-26T11:00:00",
+   "2026-01-01T11:00:00",
+   "2026-04-03T11:00:00",
+   "2026-04-06T11:00:00",
+   "2026-05-04T11:00:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (last weekday review)",
+  "resource": "London Room L",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1;COUNT=26",
+  "dtStart": "2025-11-03T15:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Cardiology (weekly)",
+  "resource": "London Room L",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-09-27T11:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T11:00:00",
+   "2025-12-26T11:00:00",
+   "2026-01-01T11:00:00",
+   "2026-04-03T11:00:00",
+   "2026-04-06T11:00:00",
+   "2026-05-04T11:00:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (every two weeks)",
+  "resource": "London Room L",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;COUNT=12",
+  "dtStart": "2026-01-07T12:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T12:00:00",
+   "2025-12-26T12:00:00",
+   "2026-01-01T12:00:00",
+   "2026-04-03T12:00:00",
+   "2026-04-06T12:00:00",
+   "2026-05-04T12:00:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (every two weeks)",
+  "resource": "London Room L",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO",
+  "dtStart": "2025-09-17T12:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T12:00:00",
+   "2025-12-26T12:00:00",
+   "2026-01-01T12:00:00",
+   "2026-04-03T12:00:00",
+   "2026-04-06T12:00:00",
+   "2026-05-04T12:00:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (weekly)",
+  "resource": "London Room L",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20270613T235959Z",
+  "dtStart": "2025-12-28T08:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T08:15:00",
+   "2025-12-26T08:15:00",
+   "2026-01-01T08:15:00",
+   "2026-04-03T08:15:00",
+   "2026-04-06T08:15:00",
+   "2026-05-04T08:15:00"
+  ]
+ },
+ {
+  "title": "Mental Health Group (last weekday review)",
+  "resource": "London Room L",
+  "rrule": "FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+  "dtStart": "2025-09-27T09:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": []
+ },
+ {
+  "title": "Audiology (twice weekly)",
+  "resource": "London Room L",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH,FR;COUNT=25",
+  "dtStart": "2025-11-18T16:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T16:30:00",
+   "2025-12-26T16:30:00",
+   "2026-01-01T16:30:00",
+   "2026-04-03T16:30:00",
+   "2026-04-06T16:30:00",
+   "2026-05-04T16:30:00"
+  ]
+ },
+ {
+  "title": "Dermatology (monthly)",
+  "resource": "London Room L",
+  "rrule": "FREQ=MONTHLY;BYDAY=-1MO",
+  "dtStart": "2025-11-06T16:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 180,
+  "exDates": []
+ },
+ {
+  "title": "Orthopaedics (monthly)",
+  "resource": "London Room L",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=15",
+  "dtStart": "2026-01-17T16:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Dermatology (weekly)",
+  "resource": "Telehealth Line 1",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH;COUNT=25",
+  "dtStart": "2026-01-01T13:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T13:00:00",
+   "2025-12-26T13:00:00",
+   "2026-01-01T13:00:00",
+   "2026-02-16T13:00:00",
+   "2026-04-03T13:00:00",
+   "2026-05-18T13:00:00"
+  ]
+ },
+ {
+  "title": "Physiotherapy (twice weekly)",
+  "resource": "Telehealth Line 1",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,TH;UNTIL=20270315T235959Z",
+  "dtStart": "2025-12-14T11:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T11:30:00",
+   "2025-12-26T11:30:00",
+   "2026-01-01T11:30:00",
+   "2026-02-16T11:30:00",
+   "2026-04-03T11:30:00",
+   "2026-05-18T11:30:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (twice weekly)",
+  "resource": "Telehealth Line 1",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU;COUNT=13",
+  "dtStart": "2026-01-12T07:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T07:45:00",
+   "2025-12-26T07:45:00",
+   "2026-01-01T07:45:00",
+   "2026-02-16T07:45:00",
+   "2026-04-03T07:45:00",
+   "2026-05-18T07:45:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (twice weekly)",
+  "resource": "Telehealth Line 1",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH,FR",
+  "dtStart": "2025-12-08T08:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T08:15:00",
+   "2025-12-26T08:15:00",
+   "2026-01-01T08:15:00",
+   "2026-04-03T08:15:00",
+   "2026-04-06T08:15:00",
+   "2026-05-04T08:15:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (weekly)",
+  "resource": "Telehealth Line 1",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU",
+  "dtStart": "2025-10-10T13:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T13:00:00",
+   "2025-12-26T13:00:00",
+   "2026-01-01T13:00:00",
+   "2026-02-16T13:00:00",
+   "2026-04-03T13:00:00",
+   "2026-05-18T13:00:00"
+  ]
+ },
+ {
+  "title": "Prenatal Care (weekly)",
+  "resource": "Telehealth Line 1",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO;UNTIL=20260713T235959Z",
+  "dtStart": "2025-11-27T09:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T09:15:00",
+   "2025-12-26T09:15:00",
+   "2026-01-01T09:15:00",
+   "2026-02-16T09:15:00",
+   "2026-04-03T09:15:00",
+   "2026-05-18T09:15:00"
+  ]
+ },
+ {
+  "title": "Wound Care (monthly)",
+  "resource": "Telehealth Line 1",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=1",
+  "dtStart": "2026-01-27T12:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Prenatal Care (twice weekly)",
+  "resource": "Telehealth Line 1",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,WE,FR;COUNT=23",
+  "dtStart": "2025-12-09T12:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T12:30:00",
+   "2025-12-26T12:30:00",
+   "2026-01-01T12:30:00",
+   "2026-04-03T12:30:00",
+   "2026-04-06T12:30:00",
+   "2026-05-04T12:30:00"
+  ]
+ },
+ {
+  "title": "Audiology (twice weekly)",
+  "resource": "Telehealth Line 1",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,WE,TH",
+  "dtStart": "2025-10-03T07:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T07:30:00",
+   "2025-12-26T07:30:00",
+   "2026-01-01T07:30:00",
+   "2026-04-03T07:30:00",
+   "2026-04-06T07:30:00",
+   "2026-05-04T07:30:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (weekday mornings)",
+  "resource": "Telehealth Line 1",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-09-02T11:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T11:00:00",
+   "2025-12-26T11:00:00",
+   "2026-01-01T11:00:00",
+   "2026-02-16T11:00:00",
+   "2026-04-03T11:00:00",
+   "2026-05-18T11:00:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (weekly)",
+  "resource": "Telehealth Line 1",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE",
+  "dtStart": "2025-10-27T10:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T10:45:00",
+   "2025-12-26T10:45:00",
+   "2026-01-01T10:45:00",
+   "2026-02-16T10:45:00",
+   "2026-04-03T10:45:00",
+   "2026-05-18T10:45:00"
+  ]
+ },
+ {
+  "title": "Dermatology (every two weeks)",
+  "resource": "Telehealth Line 1",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TU",
+  "dtStart": "2026-01-15T07:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T07:15:00",
+   "2025-12-26T07:15:00",
+   "2026-01-01T07:15:00",
+   "2026-02-16T07:15:00",
+   "2026-04-03T07:15:00",
+   "2026-05-18T07:15:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (weekly)",
+  "resource": "Telehealth Line 2",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-09-29T09:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T09:30:00",
+   "2025-12-26T09:30:00",
+   "2026-01-01T09:30:00",
+   "2026-04-03T09:30:00",
+   "2026-04-06T09:30:00",
+   "2026-05-04T09:30:00"
+  ]
+ },
+ {
+  "title": "Wound Care (weekly)",
+  "resource": "Telehealth Line 2",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-09-22T10:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T10:30:00",
+   "2025-12-26T10:30:00",
+   "2026-01-01T10:30:00",
+   "2026-02-16T10:30:00",
+   "2026-04-03T10:30:00",
+   "2026-05-18T10:30:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (twice weekly)",
+  "resource": "Telehealth Line 2",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE,FR;UNTIL=20261223T235959Z",
+  "dtStart": "2025-09-27T11:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T11:45:00",
+   "2025-12-26T11:45:00",
+   "2026-01-01T11:45:00",
+   "2026-04-03T11:45:00",
+   "2026-04-06T11:45:00",
+   "2026-05-04T11:45:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (weekly)",
+  "resource": "Telehealth Line 2",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO;COUNT=24",
+  "dtStart": "2025-10-21T15:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T15:15:00",
+   "2025-12-26T15:15:00",
+   "2026-01-01T15:15:00",
+   "2026-04-03T15:15:00",
+   "2026-04-06T15:15:00",
+   "2026-05-04T15:15:00"
+  ]
+ },
+ {
+  "title": "Nutrition Counselling (weekly)",
+  "resource": "Telehealth Line 2",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2026-01-26T17:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T17:30:00",
+   "2025-12-26T17:30:00",
+   "2026-01-01T17:30:00",
+   "2026-04-03T17:30:00",
+   "2026-04-06T17:30:00",
+   "2026-05-04T17:30:00"
+  ]
+ },
+ {
+  "title": "Mental Health Group (monthly)",
+  "resource": "Telehealth Line 2",
+  "rrule": "FREQ=MONTHLY;BYDAY=1WE",
+  "dtStart": "2025-11-21T13:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Nutrition Counselling (every two weeks)",
+  "resource": "Telehealth Line 2",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=FR",
+  "dtStart": "2026-01-22T10:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T10:00:00",
+   "2025-12-26T10:00:00",
+   "2026-01-01T10:00:00",
+   "2026-04-03T10:00:00",
+   "2026-04-06T10:00:00",
+   "2026-05-04T10:00:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (monthly)",
+  "resource": "Telehealth Line 2",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=10",
+  "dtStart": "2025-12-10T13:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Paediatrics (weekday mornings)",
+  "resource": "Telehealth Line 2",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-10-07T13:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T13:45:00",
+   "2025-12-26T13:45:00",
+   "2026-01-01T13:45:00",
+   "2026-04-03T13:45:00",
+   "2026-04-06T13:45:00",
+   "2026-05-04T13:45:00"
+  ]
+ },
+ {
+  "title": "Orthopaedics (twice weekly)",
+  "resource": "Telehealth Line 2",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH,FR",
+  "dtStart": "2025-12-15T11:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T11:15:00",
+   "2025-12-26T11:15:00",
+   "2026-01-01T11:15:00",
+   "2026-04-03T11:15:00",
+   "2026-04-06T11:15:00",
+   "2026-05-04T11:15:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (twice weekly)",
+  "resource": "Telehealth Line 2",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,WE,TH",
+  "dtStart": "2025-09-10T11:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T11:15:00",
+   "2025-12-26T11:15:00",
+   "2026-01-01T11:15:00",
+   "2026-04-03T11:15:00",
+   "2026-04-06T11:15:00",
+   "2026-05-04T11:15:00"
+  ]
+ },
+ {
+  "title": "Audiology (weekly)",
+  "resource": "Telehealth Line 2",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU;COUNT=25",
+  "dtStart": "2025-10-24T09:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T09:45:00",
+   "2025-12-26T09:45:00",
+   "2026-01-01T09:45:00",
+   "2026-02-16T09:45:00",
+   "2026-04-03T09:45:00",
+   "2026-05-18T09:45:00"
+  ]
+ },
+ {
+  "title": "Wound Care (weekly)",
+  "resource": "Telehealth Line 2",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU",
+  "dtStart": "2025-12-04T09:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T09:00:00",
+   "2025-12-26T09:00:00",
+   "2026-01-01T09:00:00",
+   "2026-02-16T09:00:00",
+   "2026-04-03T09:00:00",
+   "2026-05-18T09:00:00"
+  ]
+ },
+ {
+  "title": "Dermatology (weekly)",
+  "resource": "Telehealth Line 3",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO",
+  "dtStart": "2025-09-10T12:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T12:00:00",
+   "2025-12-26T12:00:00",
+   "2026-01-01T12:00:00",
+   "2026-04-03T12:00:00",
+   "2026-04-06T12:00:00",
+   "2026-05-04T12:00:00"
+  ]
+ },
+ {
+  "title": "Sleep Study Review (weekly)",
+  "resource": "Telehealth Line 3",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH;COUNT=33",
+  "dtStart": "2025-12-10T16:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": [
+   "2025-12-25T16:45:00",
+   "2025-12-26T16:45:00",
+   "2026-01-01T16:45:00",
+   "2026-02-16T16:45:00",
+   "2026-04-03T16:45:00",
+   "2026-05-18T16:45:00"
+  ]
+ },
+ {
+  "title": "Dermatology (twice weekly)",
+  "resource": "Telehealth Line 3",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,WE;UNTIL=20260914T235959Z",
+  "dtStart": "2025-09-04T13:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T13:30:00",
+   "2025-12-26T13:30:00",
+   "2026-01-01T13:30:00",
+   "2026-04-03T13:30:00",
+   "2026-04-06T13:30:00",
+   "2026-05-04T13:30:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (twice weekly)",
+  "resource": "Telehealth Line 3",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,WE,FR",
+  "dtStart": "2025-12-21T09:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T09:30:00",
+   "2025-12-26T09:30:00",
+   "2026-01-01T09:30:00",
+   "2026-04-03T09:30:00",
+   "2026-04-06T09:30:00",
+   "2026-05-04T09:30:00"
+  ]
+ },
+ {
+  "title": "Dermatology (monthly)",
+  "resource": "Telehealth Line 3",
+  "rrule": "FREQ=MONTHLY;BYDAY=3WE",
+  "dtStart": "2025-11-29T14:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 60,
+  "exDates": []
+ },
+ {
+  "title": "Speech Therapy (twice weekly)",
+  "resource": "Telehealth Line 3",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TH",
+  "dtStart": "2025-11-21T08:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T08:45:00",
+   "2025-12-26T08:45:00",
+   "2026-01-01T08:45:00",
+   "2026-04-03T08:45:00",
+   "2026-04-06T08:45:00",
+   "2026-05-04T08:45:00"
+  ]
+ },
+ {
+  "title": "Nutrition Counselling (monthly)",
+  "resource": "Telehealth Line 3",
+  "rrule": "FREQ=MONTHLY;BYMONTHDAY=-1",
+  "dtStart": "2026-01-24T15:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 120,
+  "exDates": []
+ },
+ {
+  "title": "Cardiology (twice weekly)",
+  "resource": "Telehealth Line 3",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,WE,TH",
+  "dtStart": "2025-09-07T13:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T13:00:00",
+   "2025-12-26T13:00:00",
+   "2026-01-01T13:00:00",
+   "2026-04-03T13:00:00",
+   "2026-04-06T13:00:00",
+   "2026-05-04T13:00:00"
+  ]
+ },
+ {
+  "title": "Audiology (weekly)",
+  "resource": "Telehealth Line 3",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO",
+  "dtStart": "2025-09-19T08:00:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T08:00:00",
+   "2025-12-26T08:00:00",
+   "2026-01-01T08:00:00",
+   "2026-04-03T08:00:00",
+   "2026-04-06T08:00:00",
+   "2026-05-04T08:00:00"
+  ]
+ },
+ {
+  "title": "Oncology Follow-up (weekly)",
+  "resource": "Telehealth Line 3",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE;UNTIL=20260503T235959Z",
+  "dtStart": "2026-01-18T10:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T10:30:00",
+   "2025-12-26T10:30:00",
+   "2026-01-01T10:30:00",
+   "2026-02-16T10:30:00",
+   "2026-04-03T10:30:00",
+   "2026-05-18T10:30:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (twice weekly)",
+  "resource": "Telehealth Line 4",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,WE",
+  "dtStart": "2025-12-28T09:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T09:15:00",
+   "2025-12-26T09:15:00",
+   "2026-01-01T09:15:00",
+   "2026-04-03T09:15:00",
+   "2026-04-06T09:15:00",
+   "2026-05-04T09:15:00"
+  ]
+ },
+ {
+  "title": "Diabetes Clinic (every two weeks)",
+  "resource": "Telehealth Line 4",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=MO",
+  "dtStart": "2025-09-08T12:45:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T12:45:00",
+   "2025-12-26T12:45:00",
+   "2026-01-01T12:45:00",
+   "2026-02-16T12:45:00",
+   "2026-04-03T12:45:00",
+   "2026-05-18T12:45:00"
+  ]
+ },
+ {
+  "title": "Cardiology (weekday mornings)",
+  "resource": "Telehealth Line 4",
+  "rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR",
+  "dtStart": "2025-10-04T15:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T15:30:00",
+   "2025-12-26T15:30:00",
+   "2026-01-01T15:30:00",
+   "2026-04-03T15:30:00",
+   "2026-04-06T15:30:00",
+   "2026-05-04T15:30:00"
+  ]
+ },
+ {
+  "title": "Allergy Shots (weekly)",
+  "resource": "Telehealth Line 4",
+  "rrule": "FREQ=WEEKLY;BYDAY=WE;UNTIL=20260203T235959Z",
+  "dtStart": "2025-09-16T14:30:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T14:30:00",
+   "2025-12-26T14:30:00",
+   "2026-01-01T14:30:00",
+   "2026-02-16T14:30:00",
+   "2026-04-03T14:30:00",
+   "2026-05-18T14:30:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (twice weekly)",
+  "resource": "Telehealth Line 4",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU,TH",
+  "dtStart": "2025-11-22T09:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T09:15:00",
+   "2025-12-26T09:15:00",
+   "2026-01-01T09:15:00",
+   "2026-02-16T09:15:00",
+   "2026-04-03T09:15:00",
+   "2026-05-18T09:15:00"
+  ]
+ },
+ {
+  "title": "Paediatrics (weekly)",
+  "resource": "Telehealth Line 4",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR;UNTIL=20270411T235959Z",
+  "dtStart": "2025-11-10T09:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T09:15:00",
+   "2025-12-26T09:15:00",
+   "2026-01-01T09:15:00",
+   "2026-04-03T09:15:00",
+   "2026-04-06T09:15:00",
+   "2026-05-04T09:15:00"
+  ]
+ },
+ {
+  "title": "Audiology (weekly)",
+  "resource": "Telehealth Line 4",
+  "rrule": "FREQ=WEEKLY;BYDAY=TH",
+  "dtStart": "2025-09-04T16:45:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 30,
+  "exDates": [
+   "2025-12-25T16:45:00",
+   "2025-12-26T16:45:00",
+   "2026-01-01T16:45:00",
+   "2026-04-03T16:45:00",
+   "2026-04-06T16:45:00",
+   "2026-05-04T16:45:00"
+  ]
+ },
+ {
+  "title": "Speech Therapy (every two weeks)",
+  "resource": "Telehealth Line 4",
+  "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TU",
+  "dtStart": "2026-01-20T17:00:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 90,
+  "exDates": [
+   "2025-12-25T17:00:00",
+   "2025-12-26T17:00:00",
+   "2026-01-01T17:00:00",
+   "2026-02-16T17:00:00",
+   "2026-04-03T17:00:00",
+   "2026-05-18T17:00:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "Telehealth Line 4",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=2SA",
+  "dtStart": "2025-10-25T07:15:00",
+  "timeZone": "America/Toronto",
+  "durationMinutes": 240,
+  "exDates": []
+ },
+ {
+  "title": "Sleep Study Review (weekly)",
+  "resource": "Telehealth Line 4",
+  "rrule": "FREQ=WEEKLY;BYDAY=TU",
+  "dtStart": "2025-10-20T14:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 45,
+  "exDates": [
+   "2025-12-25T14:15:00",
+   "2025-12-26T14:15:00",
+   "2026-01-01T14:15:00",
+   "2026-04-03T14:15:00",
+   "2026-04-06T14:15:00",
+   "2026-05-04T14:15:00"
+  ]
+ },
+ {
+  "title": "Occupational Therapy (weekly)",
+  "resource": "Telehealth Line 4",
+  "rrule": "FREQ=WEEKLY;BYDAY=FR",
+  "dtStart": "2025-11-16T17:15:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 60,
+  "exDates": [
+   "2025-12-25T17:15:00",
+   "2025-12-26T17:15:00",
+   "2026-01-01T17:15:00",
+   "2026-04-03T17:15:00",
+   "2026-04-06T17:15:00",
+   "2026-05-04T17:15:00"
+  ]
+ },
+ {
+  "title": "Equipment maintenance (quarterly maintenance)",
+  "resource": "Telehealth Line 4",
+  "rrule": "FREQ=MONTHLY;INTERVAL=3;BYDAY=1SA",
+  "dtStart": "2025-12-24T06:30:00",
+  "timeZone": "Europe/London",
+  "durationMinutes": 240,
+  "exDates": []
+ }
+]
