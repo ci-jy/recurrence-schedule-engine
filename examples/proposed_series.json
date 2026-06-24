@@ -1,0 +1,13 @@
+{
+  "series": {
+    "title": "Hand Therapy (weekly)",
+    "resource": "Toronto Room 101",
+    "rrule": "FREQ=WEEKLY;BYDAY=TU,TH",
+    "dtStart": "2026-01-06T10:00:00",
+    "timeZone": "America/Toronto",
+    "durationMinutes": 90
+  },
+  "from": "2026-01-01T00:00:00Z",
+  "to": "2026-04-01T00:00:00Z",
+  "maxPerSeries": 5
+}
