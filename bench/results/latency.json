@@ -1,0 +1,10 @@
+{
+  "endpoint": "POST /api/conflicts/check",
+  "window_days": 181,
+  "requests": 1000,
+  "p50_ms": 2.07,
+  "p95_ms": 4.41,
+  "p99_ms": 6.34,
+  "mean_ms": 2.39,
+  "total_clashes_found": 14944
+}
