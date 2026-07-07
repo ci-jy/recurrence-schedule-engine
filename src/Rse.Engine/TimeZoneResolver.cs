@@ -27,9 +27,11 @@ public static class TimeZoneResolver
         // Offsets a day either side bracket any single transition near this local time.
         var before = OffsetAt(local.AddDays(-1), zone);
         var after = OffsetAt(local.AddDays(1), zone);
+        // Same offset on both sides: no transition within a day, so the wall time maps to one instant.
+        if (before == after) return DateTime.SpecifyKind(local - before, DateTimeKind.Utc);
 
         DateTime? best = null;
-        foreach (var offset in before == after ? [before] : new[] { before, after })
+        foreach (var offset in new[] { before, after })
         {
             var candidate = local - offset;
             if (candidate < DateTime.MinValue.AddDays(2) || candidate > DateTime.MaxValue.AddDays(-2)) continue;

@@ -1,5 +1,3 @@
-using System.Collections.Concurrent;
-
 namespace Rse.Engine;
 
 public readonly record struct SlotConflict(TimeSlot First, TimeSlot Second)
@@ -77,37 +75,65 @@ public static class ConflictDetector
 /// <summary>Expands many series over a window, either sequentially or across all cores.</summary>
 public static class ScheduleExpander
 {
+    /// <summary>All slots overlapping [fromUtc, toUtc), ordered by UTC start and then by series id.</summary>
     public static List<(ScheduleSeries Series, TimeSlot Slot)> Expand(
         IReadOnlyList<ScheduleSeries> series, DateTime fromUtc, DateTime toUtc, bool parallel)
     {
-        if (!parallel)
+        // Rank series by id once, so ties sort on an int instead of a string comparison.
+        var byId = Enumerable.Range(0, series.Count).ToArray();
+        Array.Sort(byId, (a, b) => string.CompareOrdinal(series[a].Id, series[b].Id));
+        var rank = new int[series.Count];
+        for (var r = 0; r < byId.Length; r++) rank[byId[r]] = r;
+
+        if (!parallel || series.Count < 2)
         {
-            var list = new List<(ScheduleSeries, TimeSlot)>();
-            foreach (var s in series)
-                foreach (var slot in s.SlotsOverlapping(fromUtc, toUtc))
-                    list.Add((s, slot));
-            list.Sort(BySlotThenId);
-            return list;
+            var (keys, items) = SortedRun(series, rank, 0, 1, fromUtc, toUtc);
+            return [.. items];
         }
 
-        var bag = new ConcurrentBag<List<(ScheduleSeries, TimeSlot)>>();
-        Parallel.ForEach(Partitioner.Create(0, series.Count), range =>
-        {
-            var local = new List<(ScheduleSeries, TimeSlot)>();
-            for (var i = range.Item1; i < range.Item2; i++)
-                foreach (var slot in series[i].SlotsOverlapping(fromUtc, toUtc))
-                    local.Add((series[i], slot));
-            bag.Add(local);
-        });
-        var merged = new List<(ScheduleSeries, TimeSlot)>(bag.Sum(l => l.Count));
-        foreach (var l in bag) merged.AddRange(l);
-        merged.Sort(BySlotThenId);
-        return merged;
+        // Each partition expands and sorts its own series; a k-way merge then combines the sorted runs,
+        // so the O(n log n) sorting work is spread across cores instead of done once at the end.
+        var partitions = Math.Min(series.Count, Environment.ProcessorCount * 2);
+        var runs = new (SortKey[] Keys, (ScheduleSeries, TimeSlot)[] Items)[partitions];
+        Parallel.For(0, partitions, p => runs[p] = SortedRun(series, rank, p, partitions, fromUtc, toUtc));
+        return Merge(runs);
     }
 
-    private static int BySlotThenId((ScheduleSeries Series, TimeSlot Slot) p, (ScheduleSeries Series, TimeSlot Slot) q)
+    private readonly record struct SortKey(long Ticks, int Rank) : IComparable<SortKey>
     {
-        var c = p.Slot.StartUtc.CompareTo(q.Slot.StartUtc);
-        return c != 0 ? c : string.CompareOrdinal(p.Series.Id, q.Series.Id);
+        public int CompareTo(SortKey other) =>
+            Ticks != other.Ticks ? Ticks.CompareTo(other.Ticks) : Rank.CompareTo(other.Rank);
+    }
+
+    private static (SortKey[] Keys, (ScheduleSeries, TimeSlot)[] Items) SortedRun(
+        IReadOnlyList<ScheduleSeries> series, int[] rank, int first, int stride, DateTime fromUtc, DateTime toUtc)
+    {
+        var keys = new List<SortKey>();
+        var items = new List<(ScheduleSeries, TimeSlot)>();
+        for (var i = first; i < series.Count; i += stride)
+            foreach (var slot in series[i].SlotsOverlapping(fromUtc, toUtc))
+            {
+                keys.Add(new SortKey(slot.StartUtc.Ticks, rank[i]));
+                items.Add((series[i], slot));
+            }
+        var k = keys.ToArray();
+        var v = items.ToArray();
+        Array.Sort(k, v);
+        return (k, v);
+    }
+
+    private static List<(ScheduleSeries Series, TimeSlot Slot)> Merge((SortKey[] Keys, (ScheduleSeries, TimeSlot)[] Items)[] runs)
+    {
+        var merged = new List<(ScheduleSeries, TimeSlot)>(runs.Sum(r => r.Items.Length));
+        var heads = new PriorityQueue<int, SortKey>(runs.Length);
+        var positions = new int[runs.Length];
+        for (var r = 0; r < runs.Length; r++)
+            if (runs[r].Keys.Length > 0) heads.Enqueue(r, runs[r].Keys[0]);
+        while (heads.TryDequeue(out var r, out _))
+        {
+            merged.Add(runs[r].Items[positions[r]]);
+            if (++positions[r] < runs[r].Keys.Length) heads.Enqueue(r, runs[r].Keys[positions[r]]);
+        }
+        return merged;
     }
 }
