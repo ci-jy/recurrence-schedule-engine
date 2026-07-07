@@ -12,5 +12,5 @@ WarmupCount=3
 ```
 | Method              | Mean     | Error     | StdDev    | Gen0     | Gen1    | Allocated |
 |-------------------- |---------:|----------:|----------:|---------:|--------:|----------:|
-| AllSeriesSequential | 7.707 ms |  1.963 ms | 0.1076 ms | 226.5625 | 54.6875 |   2.74 MB |
-| AllSeriesParallel   | 6.491 ms | 17.898 ms | 0.9810 ms | 226.5625 | 70.3125 |   2.75 MB |
+| AllSeriesSequential | 5.393 ms | 0.9813 ms | 0.0538 ms |  93.7500 | 15.6250 |   1.21 MB |
+| AllSeriesParallel   | 3.431 ms | 2.6284 ms | 0.1441 ms | 101.5625 | 27.3438 |   1.22 MB |

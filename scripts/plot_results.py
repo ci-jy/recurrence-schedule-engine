@@ -45,7 +45,8 @@ def main():
     ax.set_xticks(range(len(groups)), [f"{g} series\n({counts[g]:,} occ.)" for g in groups])
     ax.set_ylabel("million occurrences / second")
     ax.set_title("Expansion throughput (1-year window)")
-    ax.legend()
+    ax.set_ylim(0, ax.get_ylim()[1] * 1.2)
+    ax.legend(loc="upper left", ncol=2)
 
     ax = axes[1]
     labels, vals = [], []
