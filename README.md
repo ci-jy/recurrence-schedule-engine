@@ -24,6 +24,8 @@ curl -X POST localhost:25080/api/conflicts/check -H 'Content-Type: application/j
 
 The second command lists one week of bookings in a room. The third proposes "Hand Therapy, Tue/Thu 10:00 for 90 minutes" in that room and returns every clash in Q1 2026, with the overlapping minutes. The overlaps move by an hour in UTC after the 8 March DST change.
 
+If Docker cannot create bridge networks on your host (some sandboxes and nested VMs), add the host-network override: `docker compose -f docker-compose.yml -f docker-compose.hostnet.yml up -d --build` (same ports).
+
 Without Docker: `scripts/dev-db.sh start` (local PostgreSQL on :25432), then
 `Seed__File=data/clinic_schedule.json dotnet run --project src/Rse.Api`.
 
@@ -85,4 +87,4 @@ To regenerate the results: `dotnet run -c Release --project bench/Rse.Bench` (Be
 - The conflict sweep assumes a series' own occurrences don't overlap each other (duration shorter than the shortest gap between them).
 - A date-only UNTIL counts the whole local day. dateutil treats it as midnight.
 - No authentication, multi-tenancy or UI. Stored series are loaded from PostgreSQL on each request; there is no in-memory cache.
-- The integration tests provision PostgreSQL directly instead of through containers, so the Docker image build is not part of `dotnet test`. The published API was started with the compose environment variables against an empty database (migration and 504-series seed applied), but the container image itself was not built in the benchmark environment.
+- The integration tests provision PostgreSQL directly instead of through containers, so the Docker image build is not part of `dotnet test`. The compose stack was verified with the host-network override (image build, migration, 504-series seed, quickstart queries); the default bridge-network setup was not exercised on the benchmark machine.

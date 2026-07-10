@@ -1,0 +1,19 @@
+# Override for hosts where Docker cannot create bridge networks (for example nested or restricted
+# sandboxes): both services share the host network on the same ports as the default setup.
+#   docker compose -f docker-compose.yml -f docker-compose.hostnet.yml up -d --build
+services:
+  db:
+    network_mode: host
+    ports: !reset []
+    command: ["postgres", "-c", "port=25432", "-c", "listen_addresses=localhost"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -p 25432 -U schedule -d schedule"]
+
+  api:
+    network_mode: host
+    ports: !reset []
+    build:
+      network: host
+    environment:
+      ConnectionStrings__Schedule: "Host=localhost;Port=25432;Database=schedule;Username=schedule;Password=schedule"
+      ASPNETCORE_URLS: http://localhost:25080
