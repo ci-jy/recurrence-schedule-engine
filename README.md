@@ -88,3 +88,5 @@ To regenerate the results: `dotnet run -c Release --project bench/Rse.Bench` (Be
 - A date-only UNTIL counts the whole local day. dateutil treats it as midnight.
 - No authentication, multi-tenancy or UI. Stored series are loaded from PostgreSQL on each request; there is no in-memory cache.
 - The integration tests provision PostgreSQL directly instead of through containers, so the Docker image build is not part of `dotnet test`. The compose stack was verified with the host-network override (image build, migration, 504-series seed, quickstart queries); the default bridge-network setup was not exercised on the benchmark machine.
+
+Project period: 2026-06-08 to 2026-07-17.
