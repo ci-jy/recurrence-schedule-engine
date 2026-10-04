@@ -1,18 +1,17 @@
 # Recurring Schedule Engine
 
-A C#/.NET 8 engine and REST API that lets clinic and field-service schedulers expand RFC 5545 recurring bookings (RRULE) across time zones and find clashes between series before they confirm a booking. Over 2,000 random rules (109,002 occurrences) it agrees with python-dateutil with **0 unexplained mismatches**, and a conflict check against the seeded clinic schedule returns in **2.7 ms at p95** through the API.
+A C#/.NET 8 engine and REST API for clinic and field-service schedulers: it expands RFC 5545 recurring bookings (RRULE) across time zones and finds clashes between series before a booking is confirmed.
+
+## Results
+
+- **Stays correct across daylight-saving changes: 0 unexplained mismatches vs python-dateutil** on 2,000 random rules (109,002 occurrences in 11 IANA time zones).
+- **Detects conflicts between recurring series in 2.74 ms p95** over 1,000 requests to an ASP.NET Core + PostgreSQL endpoint, with a lazy merge-sweep detector.
+- **Expands 5.1M occurrences/s across 5,040 series (1.7x the single-threaded rate)** by parallelizing with per-partition sorting and a k-way merge, measured in BenchmarkDotNet.
+- **76 xUnit unit and integration tests** cover the RFC examples, DST cases and brute-force cross-checks; EF Core migrations and docker-compose run the API with PostgreSQL.
 
 ![Expansion throughput, conflict-check latency and differential test results](docs/results.png)
 
-| Measurement | Result | Source |
-|---|---|---|
-| Differential test vs python-dateutil | 2,000 rules, 109,002 occurrences, 11 IANA zones: 1,979 identical, 21 documented RFC differences, **0 unexplained** | `difftest/report.json` |
-| Expansion, 504 series × 1 year (26,776 occurrences) | 6.7 ms single-threaded (4.0 M occ/s), 4.7 ms parallel (5.7 M occ/s) | `bench/results/ExpansionBenchmarks-report.md` |
-| Expansion, 5,040 series × 1 year (268,361 occurrences) | 87 ms single-threaded (3.1 M occ/s), 52 ms parallel (5.1 M occ/s) | same |
-| Conflict check, proposal vs all 504 series, 6 months (in-process) | 5.4 ms sequential, 3.4 ms parallel | `bench/results/ConflictBenchmarks-report.md` |
-| `POST /api/conflicts/check`, 1,000 requests, same-room series, 6 months, incl. PostgreSQL + HTTP | p50 1.71 ms, **p95 2.74 ms**, p99 4.08 ms | `bench/results/latency.json` |
-
-Benchmarks ran on a 4-core Linux VM (BenchmarkDotNet ShortRun job, .NET 8).
+**Stack:** C#, .NET 8, ASP.NET Core (minimal APIs), Entity Framework Core (Npgsql), PostgreSQL, xUnit, BenchmarkDotNet, Docker Compose, Python (python-dateutil differential testing)
 
 ## Quickstart
 
@@ -27,9 +26,21 @@ The second command lists one week of bookings in a room. The third proposes "Han
 If Docker cannot create bridge networks on your host (some sandboxes and nested VMs), add the host-network override: `docker compose -f docker-compose.yml -f docker-compose.hostnet.yml up -d --build` (same ports).
 
 Without Docker: `scripts/dev-db.sh start` (local PostgreSQL on :25432), then
-`Seed__File=data/clinic_schedule.json dotnet run --project src/Rse.Api`.
+`Seed__File=$PWD/data/clinic_schedule.json dotnet run --project src/Rse.Api` (the same two `curl` commands then work).
 
-### API
+## Measurements
+
+| Measurement | Result | Source |
+|---|---|---|
+| Differential test vs python-dateutil | 2,000 rules, 109,002 occurrences, 11 IANA zones: 1,979 identical, 21 documented RFC differences, **0 unexplained** | `difftest/report.json` |
+| Expansion, 504 series × 1 year (26,776 occurrences) | 6.7 ms single-threaded (4.0 M occ/s), 4.7 ms parallel (5.7 M occ/s) | `bench/results/ExpansionBenchmarks-report.md` |
+| Expansion, 5,040 series × 1 year (268,361 occurrences) | 87 ms single-threaded (3.1 M occ/s), 52 ms parallel (5.1 M occ/s) | same |
+| Conflict check, proposal vs all 504 series, 6 months (in-process) | 5.4 ms sequential, 3.4 ms parallel | `bench/results/ConflictBenchmarks-report.md` |
+| `POST /api/conflicts/check`, 1,000 requests, same-room series, 6 months, incl. PostgreSQL + HTTP | p50 1.71 ms, **p95 2.74 ms**, p99 4.08 ms | `bench/results/latency.json` |
+
+Benchmarks ran on a 4-core Linux VM (BenchmarkDotNet ShortRun job, .NET 8).
+
+## API
 
 | Method | Path | Purpose |
 |---|---|---|
@@ -81,7 +92,7 @@ To regenerate the results: `dotnet run -c Release --project bench/Rse.Bench` (Be
 - **Parallelism.** Both the expansion and the conflict check are thread-safe and partitioned across cores. In the parallel expansion each partition expands and sorts its own series on a primitive `(ticks, rank)` key, and a k-way merge with a priority queue combines the sorted runs, so no single thread does a global sort. On the 4-core VM this gives a 1.4× speed-up at 504 series and 1.7× at 5,040. The remaining cost is allocating and copying the result lists, which is memory-bound.
 - **UTC conversion fast path.** If the zone's offset is the same a day before and a day after a wall-clock time, there is no transition nearby and the conversion needs two offset lookups. The gap and overlap logic only runs near DST changes.
 
-## Limitations
+## Limitations and next steps
 
 - No HOURLY/MINUTELY/SECONDLY and no BYHOUR/BYMINUTE/BYWEEKNO/BYYEARDAY: each series has one start time per day. There is no RDATE or full iCalendar import.
 - The conflict sweep assumes a series' own occurrences don't overlap each other (duration shorter than the shortest gap between them).
