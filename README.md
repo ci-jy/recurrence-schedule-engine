@@ -1,19 +1,10 @@
 # Recurring Schedule Engine
 
-A C#/.NET 8 engine and REST API for clinic and field-service schedulers: it expands RFC 5545 recurring bookings (RRULE) across time zones and finds clashes between series before a booking is confirmed.
-
-## Results
-
-- **Stays correct across daylight-saving changes: 0 unexplained mismatches vs python-dateutil** on 2,000 random rules (109,002 occurrences in 11 IANA time zones).
-- **Detects conflicts between recurring series in 2.74 ms p95** over 1,000 requests to an ASP.NET Core + PostgreSQL endpoint, with a lazy merge-sweep detector.
-- **Expands 5.1M occurrences/s across 5,040 series (1.7x the single-threaded rate)** by parallelizing with per-partition sorting and a k-way merge, measured in BenchmarkDotNet.
-- **76 xUnit unit and integration tests** cover the RFC examples, DST cases and brute-force cross-checks; EF Core migrations and docker-compose run the API with PostgreSQL.
+I tested this recurrence engine against python-dateutil on 2,000 random rules in 11 time zones (109,002 occurrences), and it finished with zero unexplained mismatches. It's a C#/.NET 8 library and REST API that expands RFC 5545 recurring bookings (strings like `FREQ=WEEKLY;BYDAY=TU,TH`) into real instants, then tells a clinic or field-service scheduler which existing series a new booking would clash with. Through HTTP and PostgreSQL, a conflict check returns in 2.74 ms at p95.
 
 ![Expansion throughput, conflict-check latency and differential test results](docs/results.png)
 
-**Stack:** C#, .NET 8, ASP.NET Core (minimal APIs), Entity Framework Core (Npgsql), PostgreSQL, xUnit, BenchmarkDotNet, Docker Compose, Python (python-dateutil differential testing)
-
-## Quickstart
+## Trying it
 
 ```bash
 docker compose up -d --build     # PostgreSQL + API on :25080, seeded with 504 clinic series
@@ -21,83 +12,33 @@ curl "localhost:25080/api/occurrences?from=2026-03-02T00:00:00Z&to=2026-03-09T00
 curl -X POST localhost:25080/api/conflicts/check -H 'Content-Type: application/json' -d @examples/proposed_series.json
 ```
 
-The second command lists one week of bookings in a room. The third proposes "Hand Therapy, Tue/Thu 10:00 for 90 minutes" in that room and returns every clash in Q1 2026, with the overlapping minutes. The overlaps move by an hour in UTC after the 8 March DST change.
+The first curl lists a week of bookings in one room. The second proposes Hand Therapy, Tuesdays and Thursdays at 10:00 for 90 minutes, in the same room, and returns every clash in the first quarter of 2026 with the overlapping minutes. If you look at the UTC times you can see the overlaps move by an hour after the 8 March DST change. That's the behaviour I wanted.
 
-If Docker cannot create bridge networks on your host (some sandboxes and nested VMs), add the host-network override: `docker compose -f docker-compose.yml -f docker-compose.hostnet.yml up -d --build` (same ports).
+If Docker can't create bridge networks on your machine (some sandboxes and nested VMs can't), add the override: `docker compose -f docker-compose.yml -f docker-compose.hostnet.yml up -d --build`. Without Docker, run `scripts/dev-db.sh start` and then `Seed__File=$PWD/data/clinic_schedule.json dotnet run --project src/Rse.Api`, and the same curl commands work.
 
-Without Docker: `scripts/dev-db.sh start` (local PostgreSQL on :25432), then
-`Seed__File=$PWD/data/clinic_schedule.json dotnet run --project src/Rse.Api` (the same two `curl` commands then work).
+To run the tests, use `dotnet test`. The differential check is `python3 difftest/run_difftest.py --rules 2000 --fail-on-mismatch` and needs python-dateutil.
 
-## Measurements
+The endpoints are listed in [docs/api.md](docs/api.md).
+The benchmark numbers and how to reproduce them are in [docs/benchmarks.md](docs/benchmarks.md).
+What the tests cover is in [docs/testing.md](docs/testing.md).
 
-| Measurement | Result | Source |
-|---|---|---|
-| Differential test vs python-dateutil | 2,000 rules, 109,002 occurrences, 11 IANA zones: 1,979 identical, 21 documented RFC differences, **0 unexplained** | `difftest/report.json` |
-| Expansion, 504 series × 1 year (26,776 occurrences) | 6.7 ms single-threaded (4.0 M occ/s), 4.7 ms parallel (5.7 M occ/s) | `bench/results/ExpansionBenchmarks-report.md` |
-| Expansion, 5,040 series × 1 year (268,361 occurrences) | 87 ms single-threaded (3.1 M occ/s), 52 ms parallel (5.1 M occ/s) | same |
-| Conflict check, proposal vs all 504 series, 6 months (in-process) | 5.4 ms sequential, 3.4 ms parallel | `bench/results/ConflictBenchmarks-report.md` |
-| `POST /api/conflicts/check`, 1,000 requests, same-room series, 6 months, incl. PostgreSQL + HTTP | p50 1.71 ms, **p95 2.74 ms**, p99 4.08 ms | `bench/results/latency.json` |
+## Time zones were the hard part
 
-Benchmarks ran on a 4-core Linux VM (BenchmarkDotNet ShortRun job, .NET 8).
+Expanding a rule is mostly bookkeeping. The expander walks years, months, weeks or days in steps of INTERVAL, builds the candidate days for each period, applies BYSETPOS and yields local wall-clock times lazily. Dates like 30 February just get skipped. Rules without COUNT can jump straight to the period containing the query window, so a 2030 query doesn't have to start counting from 2020.
 
-## API
+The tricky part is turning those wall-clock times into UTC. A 09:00 clinic should stay at 09:00 local all year, so rules expand in local time first and only then get converted. A time that falls in a DST gap uses the offset from before the gap (02:30 becomes 03:30), and an ambiguous time in an overlap takes its first instance. Australia/Lord_Howe, which shifts by half an hour, broke my first assumptions and now has its own test. My favourite test is a Toronto series and a London series that only collide during the three weeks a year when the two zones' DST dates don't line up.
 
-| Method | Path | Purpose |
-|---|---|---|
-| `POST` | `/api/series` | Create a series `{title, resource, rrule, dtStart (local), timeZone, durationMinutes, exDates[]}` |
-| `GET` | `/api/series[?resource=]` · `/api/series/{id}` | List or fetch stored series |
-| `DELETE` | `/api/series/{id}` | Remove a series |
-| `GET` | `/api/occurrences?from=&to=[&resource=]` | Every occurrence in a window (max 366 days), sorted by UTC start |
-| `POST` | `/api/conflicts/check` | `{series, from, to, maxPerSeries}` → clashes with stored series on the same resource |
+Conflict detection merges two lazy occurrence streams the same way merge sort merges two lists, always advancing whichever slot ends first. A pair of series costs time proportional to the occurrences inside the window and nothing outside it.
 
-## How it works
+The differential harness generates seeded rules that go after the hard cases on purpose: start times inside gaps and overlaps, negative month days, ordinal weekdays, WKST with INTERVAL above 1, COUNT and UNTIL boundaries. 21 rules disagree with dateutil, all for one reason. For weekly rules with BYSETPOS, dateutil starts the first week at DTSTART, while I apply BYSETPOS to the whole WKST-aligned week, which is how I read the RFC. A mismatch only counts as explained if my output exactly matches dateutil run with the first week evaluated in full.
 
-- **Parser** (`src/Rse.Engine/RRuleParser.cs`) handles FREQ (DAILY to YEARLY), INTERVAL, COUNT, UNTIL (UTC, local or date-only), BYDAY with ordinals, BYMONTHDAY (including negative values), BYMONTH, BYSETPOS and WKST. It rejects unsupported parts outright instead of ignoring them.
-- **Expander** (`RuleExpander.cs`) walks periods (year, month, WKST-aligned week, day) in steps of INTERVAL. For each period it builds the candidate day set, applying RFC 5545's defaults from DTSTART: BYDAY ordinals count within the month, or within the year for YEARLY without BYMONTH. It then applies BYSETPOS and yields wall-clock times lazily. Invalid dates such as 30 February are skipped. Rules without COUNT can jump straight to the period that holds a window's start, so a 2030 query doesn't expand from 2020.
-- **Time zones** (`TimeZoneResolver.cs`) convert each wall-clock occurrence to UTC using the IANA database, following RFC 5545 §3.3.5:
-  - A time inside a DST gap uses the offset from before the gap, so 02:30 becomes 03:30 daylight time.
-  - An ambiguous time in an overlap resolves to its first instance.
-  - This also holds for half-hour shifts such as Australia/Lord_Howe.
-- **Recurrence set** (`RecurrenceSet.cs`) combines DTSTART, RRULE and EXDATE. COUNT counts occurrences before EXDATE removes any, as the RFC requires. UNTIL is compared as a UTC instant when it is given in UTC.
-- **Conflict detection** (`ConflictDetector.cs`) merges two lazy occurrence streams the way merge sort merges lists. At each step it advances whichever slot ends first, so a pair of series costs O(n + m) within the window and nothing outside it. Finished or not-yet-started series are filtered out by their bounds. The candidate series are compared in parallel with PLINQ.
-- **API** (`src/Rse.Api`): ASP.NET Core minimal APIs and EF Core 8 with Npgsql. The migration (`Data/Migrations`) applies at startup, and an empty database is seeded from `Seed__File`.
-- **Differential testing** (`difftest/`):
-  - `rulegen.py` generates seeded random rules that favour hard cases: DST-switching zones, start times inside gaps and overlaps, start dates on transition days, BYSETPOS, negative month days, ordinal weekdays, WKST with INTERVAL > 1, COUNT/UNTIL boundaries and EXDATEs.
-  - `run_difftest.py` expands each rule with the engine (through `src/Rse.Cli`) and with dateutil (`oracle.py`) and compares UTC instants. It classifies every mismatch (DST gap/overlap, COUNT/UNTIL boundary, BYSETPOS, ordinal BYDAY and so on) and writes `difftest/report.json`.
+Parallel expansion helped less than I hoped. Each partition sorts its own series and a k-way merge combines them, but at 5,040 series it's only about 1.7 times faster than single-threaded on four cores. Most of what's left is allocating and copying result lists.
 
-## Running the tests
+## Where it falls short
 
-```bash
-dotnet test                                                        # 76 xUnit tests
-python3 difftest/run_difftest.py --rules 2000 --fail-on-mismatch   # needs python-dateutil (difftest/requirements.txt)
-```
+- No HOURLY, MINUTELY or SECONDLY rules, no BYHOUR, BYMINUTE, BYWEEKNO or BYYEARDAY, and no RDATE or iCalendar import. Each series has one start time per day.
+- The conflict sweep assumes a series never overlaps itself, meaning the duration is shorter than the gap between its own occurrences.
+- A date-only UNTIL includes the whole local day, where dateutil treats it as midnight.
+- There's no authentication or caching. Stored series are read from PostgreSQL on every request, and I've only run the compose stack with the host-network override, not the default bridge setup.
 
-The unit tests (`tests/Rse.Engine.Tests`) cover:
-- the RFC 5545 §3.8.5.3 examples;
-- DST gap, overlap and cross-zone cases;
-- window queries checked against full enumeration;
-- parser errors;
-- the merge sweep checked against brute force;
-- parallel results checked against sequential ones.
-
-The integration tests (`tests/Rse.Api.Tests`) run the real API against PostgreSQL. They use `RSE_TEST_PG` if it is set, then the compose database on `localhost:25432` if it is running. Otherwise they create a throwaway cluster with the local `initdb`/`pg_ctl` on a free port and delete it afterwards.
-
-To regenerate the results: `dotnet run -c Release --project bench/Rse.Bench` (BenchmarkDotNet), then `dotnet run -c Release --project bench/Rse.Bench -- latency http://localhost:25080 1000` against a running API, then `python3 scripts/plot_results.py`. The clinic data comes from `python3 tools/gen_clinic_schedule.py` (seeded).
-
-## Design notes
-
-- **Wall-clock first, UTC second.** Rules expand in local time and each occurrence then converts to UTC. A 09:00 clinic stays at 09:00 local all year, and clashes between a Toronto and a London series are found on true instants. The test `DstShiftCreatesTemporaryConflict` shows a collision that exists only during the three weeks when the two zones' DST dates differ.
-- **Documented difference from dateutil (21 of 2,000 rules).** For `FREQ=WEEKLY` with `BYSETPOS`, dateutil starts the first week at DTSTART, so set positions count within a shortened week. The engine applies BYSETPOS to the whole WKST-aligned week, as the RFC defines it per week, and then drops occurrences before DTSTART. These mismatches are marked explained only when the engine's output exactly matches dateutil's own expansion with the first week evaluated in full. The harness never uses a catch-all.
-- **DTSTART is not added automatically** when it doesn't match the rule. This follows dateutil and RFC 2445; RFC 5545 asks for DTSTART to be synchronised with the rule.
-- **Parallelism.** Both the expansion and the conflict check are thread-safe and partitioned across cores. In the parallel expansion each partition expands and sorts its own series on a primitive `(ticks, rank)` key, and a k-way merge with a priority queue combines the sorted runs, so no single thread does a global sort. On the 4-core VM this gives a 1.4× speed-up at 504 series and 1.7× at 5,040. The remaining cost is allocating and copying the result lists, which is memory-bound.
-- **UTC conversion fast path.** If the zone's offset is the same a day before and a day after a wall-clock time, there is no transition nearby and the conversion needs two offset lookups. The gap and overlap logic only runs near DST changes.
-
-## Limitations and next steps
-
-- No HOURLY/MINUTELY/SECONDLY and no BYHOUR/BYMINUTE/BYWEEKNO/BYYEARDAY: each series has one start time per day. There is no RDATE or full iCalendar import.
-- The conflict sweep assumes a series' own occurrences don't overlap each other (duration shorter than the shortest gap between them).
-- A date-only UNTIL counts the whole local day. dateutil treats it as midnight.
-- No authentication, multi-tenancy or UI. Stored series are loaded from PostgreSQL on each request; there is no in-memory cache.
-- The integration tests provision PostgreSQL directly instead of through containers, so the Docker image build is not part of `dotnet test`. The compose stack was verified with the host-network override (image build, migration, 504-series seed, quickstart queries); the default bridge-network setup was not exercised on the benchmark machine.
-
-Project period: 2026-06-08 to 2026-07-17.
+Project period: 2026-06-08 to 2026-10-08.
